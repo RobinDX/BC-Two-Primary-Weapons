@@ -23,7 +23,12 @@ class CfgFunctions
 			{
 				file = "\BC_TPW\functions\tpw.sqf";
 				description = "Two Primary Weapons";
-			};		
+			};
+			class tpw_init
+			{
+				file = "\BC_TPW\functions\init.sqf";
+				postInit	= 1;
+			};
 		};
 	};
 };
@@ -33,7 +38,7 @@ class Extended_PostInit_EventHandlers
 {
 	class BC_wpn_dpw_post_init_event
 	{
-		init = "['BC Two Primary Weapons','tpw_key','Double weapons switch',{call bc_fnc_tpw},'',[211,[false,false,false]]] call CBA_fnc_addKeybind;";
+		init = "['BC Two Primary Weapons','tpw_key','Weapons swap',{call bc_fnc_tpw},'',[54,[true,false,false]]] call CBA_fnc_addKeybind;";
 	};
 };
 
@@ -401,8 +406,8 @@ class CfgWeapons
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","camo"};
-		hiddenSelectionsTextures[] = {"","\A3\Weapons_F_Beta\Rifles\MK20\Data\mk20_co.paa"};
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
 	};
 	class arifle_Mk20C_F;
 	class arifle_Mk20C_F_bcsewpn: arifle_Mk20C_F
@@ -423,6 +428,23 @@ class CfgWeapons
 	};
 	class arifle_Mk20C_plain_F;
 	class arifle_Mk20C_plain_F_bcsewpn: arifle_Mk20C_plain_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo"};
+		hiddenSelectionsTextures[] = {"","\A3\Weapons_F_Beta\Rifles\MK20\Data\mk20_co.paa"};
+	};
+	class arifle_Mk20_plain_F;
+	class arifle_Mk20_plain_F_bcsewpn: arifle_Mk20_plain_F
 	{
 		enableAttack = 0;
 		type = 4;
@@ -1690,7 +1712,7 @@ class CfgWeapons
 		_generalMacro = "";
 		baseWeapon = "";
 		hiddenSelections[] = {"zasleh","Camo1","Camo2"};
-		hiddenSelectionsTextures[] = {"\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_01_CO.paa","\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_02_CO.paa"};
+		hiddenSelectionsTextures[] = {"","\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_01_CO.paa","\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_02_CO.paa"};
 		
 	};
 	class srifle_DMR_02_camo_F_bcsewpn :srifle_DMR_02_camo_F
@@ -1707,7 +1729,7 @@ class CfgWeapons
 		_generalMacro = "";
 		baseWeapon = "";
 		hiddenSelections[] = {"zasleh","Camo1","Camo2"};
-		hiddenSelectionsTextures[] = {"\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_01_dazzle_CO.paa","\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_02_dazzle_CO.paa"};
+		hiddenSelectionsTextures[] = {"","\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_01_dazzle_CO.paa","\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_02_dazzle_CO.paa"};
 	
 	};
 	class srifle_DMR_02_sniper_F_bcsewpn :srifle_DMR_02_sniper_F
@@ -1724,7 +1746,7 @@ class CfgWeapons
 		_generalMacro = "";
 		baseWeapon = "";
 		hiddenSelections[] = {"zasleh","Camo1","Camo2"};
-		hiddenSelectionsTextures[] = {"\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_01_tan_CO.paa","\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_02_tan_CO.paa"};
+		hiddenSelectionsTextures[] = {"","\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_01_tan_CO.paa","\A3\Weapons_F_Mark\LongRangeRifles\DMR_02\Data\DMR_02_02_tan_CO.paa"};
 	
 	};
 	class srifle_DMR_03_F_bcsewpn :srifle_DMR_03_F
@@ -2280,6 +2302,9 @@ class CfgWeapons
 	#include "\BC_TPW\compat\AK_A.hpp"
 	#include "\BC_TPW\compat\nmg.hpp"	
 	#include "\BC_TPW\compat\EAST_LZB.hpp"
+	#include "\BC_TPW\compat\blank.hpp"
+	#include "\BC_TPW\compat\USCM.hpp"
+	#include "\BC_TPW\compat\BC_SA.hpp"
 	//#include "\BC_TPW\compat\blank2.hpp"
 	//#include "\BC_TPW\compat\blank3.hpp"
 };
@@ -2298,3 +2323,4 @@ class CfgMagazines
 		mass = 0.2;
 	};
 };
+

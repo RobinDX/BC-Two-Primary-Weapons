@@ -22030,6 +22030,8 @@
 		hiddenSelectionsTextures[] = {""};
 		hiddenSelectionsMaterials[] = {""};
 	};
+	class rhs_weap_vss_grip1_bcsewpn: rhs_weap_asval_grip_bcsewpn{};	
+	class rhs_weap_vss_afg_bcsewpn: rhs_weap_asval_grip_bcsewpn{};	
 	class rhs_weap_asval_npz;
 	class rhs_weap_asval_npz_bcsewpn: rhs_weap_asval_npz
 	{
@@ -22066,6 +22068,8 @@
 		hiddenSelectionsTextures[] = {""};
 		hiddenSelectionsMaterials[] = {""};
 	};
+	class rhs_weap_vss_npz_grip1_bcsewpn: rhs_weap_asval_grip_npz_bcsewpn{};
+	class rhs_weap_vss_npz_afg_bcsewpn: rhs_weap_asval_grip_npz_bcsewpn{};
 	class rhs_weap_vss;
 	class rhs_weap_vss_bcsewpn: rhs_weap_vss
 	{
@@ -22102,6 +22106,9 @@
 		hiddenSelectionsTextures[] = {""};
 		hiddenSelectionsMaterials[] = {""};
 	};
+	class rhs_weap_vss_grip1_bcsewpn: rhs_weap_vss_grip_bcsewpn{};
+	class rhs_weap_vss_afg_bcsewpn: rhs_weap_vss_grip_bcsewpn{};
+		
 	class rhs_weap_vss_npz;
 	class rhs_weap_vss_npz_bcsewpn: rhs_weap_vss_npz
 	{
@@ -22138,6 +22145,9 @@
 		hiddenSelectionsTextures[] = {""};
 		hiddenSelectionsMaterials[] = {""};
 	};
+	class rhs_weap_vss_npz_grip1_bcsewpn: rhs_weap_vss_grip_npz_bcsewpn{};	
+	class rhs_weap_vss_npz_afg_bcsewpn: rhs_weap_vss_grip_npz_bcsewpn{};	
+		
 	class rhs_weap_svdp;
 	class rhs_weap_svdp_bcsewpn: rhs_weap_svdp
 	{

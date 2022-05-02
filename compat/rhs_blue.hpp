@@ -2439,3 +2439,321 @@ class rhs_weap_m249;
 	class rhs_weap_SCARH_USA_LB_Folded_grip_bcsewpn: rhs_weap_SCARH_USA_LB_Folded_bcsewpn{};
 	class rhs_weap_SCARH_USA_LB_Folded_grip2_bcsewpn: rhs_weap_SCARH_USA_LB_Folded_bcsewpn{};
 	class rhs_weap_SCARH_USA_LB_Folded_grip3_bcsewpn: rhs_weap_SCARH_USA_LB_Folded_bcsewpn{};
+//rhsdev new
+	class rhs_weap_an94;
+	class rhs_weap_an94_folded;
+	class rhs_weap_an94_camo;
+	class rhs_weap_an94_camo_folded;
+	class rhs_weap_an94_desert;
+	class rhs_weap_an94_desert_folded;
+	class rhs_weap_an94_rail_base;
+	class rhs_weap_an94_rail;
+	class rhs_weap_an94_rail_folded;
+	class rhs_weap_an94_rail_camo;
+	class rhs_weap_an94_rail_camo_folded;
+	class rhs_weap_an94_rail_desert;
+	class rhs_weap_an94_rail_desert_folded;
+	class rhs_weap_asm;
+	class rhs_weap_asm_folded;
+	class rhs_weap_aek;
+	class rhs_weap_aek_folded;
+	class rhs_weap_aek_973;
+	class rhs_weap_aek_973_folded;
+
+
+	class rhs_weap_an94_bcsewpn: rhs_weap_an94
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\body_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\parts_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\muzzleAdapter_co.paa"};
+	};
+	class rhs_weap_an94_folded_bcsewpn: rhs_weap_an94_folded
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\body_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\parts_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\muzzleAdapter_co.paa"};
+	};
+	class rhs_weap_an94_camo_bcsewpn: rhs_weap_an94_camo
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\body_camo_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\parts_camo_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\muzzleAdapter_co.paa"};
+		hiddenSelectionsMaterials[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_body_camo.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_parts_camo.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_muzzleAdapter.rvmat"};
+	};
+	class rhs_weap_an94_camo_folded_bcsewpn: rhs_weap_an94_camo_folded
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\body_camo_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\parts_camo_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\muzzleAdapter_co.paa"};
+		hiddenSelectionsMaterials[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_body_camo.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_parts_camo.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_muzzleAdapter.rvmat"};
+	};
+	class rhs_weap_an94_desert_bcsewpn: rhs_weap_an94_desert
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\body_tan_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\parts_tan_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\muzzleAdapter_co.paa"};
+		hiddenSelectionsMaterials[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_body_tan.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_parts_tan.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_muzzleAdapter.rvmat"};
+	};
+	class rhs_weap_an94_desert_folded_bcsewpn: rhs_weap_an94_desert_folded
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\body_tan_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\parts_tan_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\muzzleAdapter_co.paa"};
+		hiddenSelectionsMaterials[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_body_tan.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_parts_tan.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_muzzleAdapter.rvmat"};
+	};
+	class rhs_weap_an94_rail_bcsewpn: rhs_weap_an94_rail
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3","camo4"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\body_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\parts_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\muzzleAdapter_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\rail_co.paa"};
+	};
+	class rhs_weap_an94_rail_folded_bcsewpn: rhs_weap_an94_rail_folded
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3","camo4"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\body_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\parts_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\muzzleAdapter_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\rail_co.paa"};
+	};
+	class rhs_weap_an94_rail_camo_bcsewpn: rhs_weap_an94_rail_camo
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3","camo4"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\body_camo_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\parts_camo_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\muzzleAdapter_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\rail_camo_co.paa"};
+		hiddenSelectionsMaterials[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_body_camo.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_parts_camo.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_muzzleAdapter.rvmat"};
+	};
+	class rhs_weap_an94_rail_camo_folded_bcsewpn: rhs_weap_an94_rail_camo_folded
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3","camo4"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\body_camo_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\parts_camo_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\muzzleAdapter_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\rail_camo_co.paa"};
+		hiddenSelectionsMaterials[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_body_camo.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_parts_camo.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_muzzleAdapter.rvmat"};
+	};
+	class rhs_weap_an94_rail_desert_bcsewpn: rhs_weap_an94_rail_desert
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3","camo4"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\body_tan_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\parts_tan_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\muzzleAdapter_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\rail_tan_co.paa"};
+		hiddenSelectionsMaterials[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_body_tan.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_parts_tan.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_muzzleAdapter.rvmat"};
+	};
+	class rhs_weap_an94_rail_desert_folded_bcsewpn: rhs_weap_an94_rail_desert_folded
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3","camo4"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\body_tan_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\parts_tan_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\muzzleAdapter_co.paa","rhsafrf\addons\rhs_weapons4\an94\data\rail_tan_co.paa"};
+		hiddenSelectionsMaterials[] = {"","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_body_tan.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_parts_tan.rvmat","rhsafrf\addons\rhs_weapons4\an94\data\rhs_an94_muzzleAdapter.rvmat"};
+	};
+	class rhs_weap_asm_bcsewpn: rhs_weap_asm
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\asm\data\body_co.paa","rhsafrf\addons\rhs_weapons4\asm\data\parts_co.paa"};
+	};
+	class rhs_weap_asm_folded_bcsewpn: rhs_weap_asm_folded
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\asm\data\body_co.paa","rhsafrf\addons\rhs_weapons4\asm\data\parts_co.paa"};
+	};
+	class rhs_weap_aek_bcsewpn: rhs_weap_aek
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\aek\data\rhs_aek_body_co.paa"};
+	};
+	class rhs_weap_aek_folded_bcsewpn: rhs_weap_aek_folded
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\aek\data\rhs_aek_body_co.paa"};
+	};
+	class rhs_weap_aek_973_bcsewpn: rhs_weap_aek_973
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\aek\data\rhs_aek_973_body_co.paa"};
+	};
+	class rhs_weap_aek_973_folded_bcsewpn: rhs_weap_aek_973_folded
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1"};
+		hiddenSelectionsTextures[] = {"","rhsafrf\addons\rhs_weapons4\aek\data\rhs_aek_973_body_co.paa"};
+	};
