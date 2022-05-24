@@ -22,11 +22,11 @@ _mass_acc3 = (getNumber (configfile >> "CfgWeapons" >> _weapon_acc3 >> "ItemInfo
 _mass_acc = _mass_acc0 + _mass_acc1 + _mass_acc2 + _mass_acc3;
 _weapon_pmag = (_pwpn_info0 param [4]) param [0];
 _mass_pmag = (getNumber (configfile >> "CfgMagazines" >> _weapon_pmag  >> "mass")) ;
-if ( isNil "_weapon_pmag" ) then {_mass_pmag=0;};
-_weapon_umag = (_pwpn_info0 param [5]) param [0];
-_mass_umag = (getNumber (configfile >> "CfgMagazines" >> _weapon_umag  >> "mass")) ;
-if ( isNil "_weapon_umag" ) then {_mass_umag=0;};
-_mass_mag = _mass_pmag + _mass_umag;
+if ( isNil "_weapon_pmag" ) then {_mass_pmag = 0;};
+_weapon_uglmag = (_pwpn_info0 param [5]) param [0];
+_mass_uglmag = (getNumber (configfile >> "CfgMagazines" >> _weapon_uglmag  >> "mass")) ;
+if ( isNil "_weapon_uglmag" ) then {_mass_uglmag = 0;};
+_mass_mag = _mass_pmag + _mass_uglmag;
 _mass_all = _weapon_mass + _mass_acc + _mass_mag;
 _mass_all = round _mass_all;
 _tpw_mass_item = format["%1%2","bc_mass_item_",_mass_all];
@@ -51,8 +51,7 @@ if (_weapon_se_old isEqualTo "") then
 			_load0 set [1, _pwpn_info0];
 			_load0 set [0, []];
 			player setUnitLoadout _load0;
-			sleep 3;
-			//
+			//sleep 3;
 			player addMagazine "mag_null";
 			player removeMagazine "mag_null";
 			//player playAction "SecondaryWeapon";
@@ -80,7 +79,7 @@ if (_weapon_se_old isEqualTo "") then
 						_load0 set [1, _pwpn_info0];
 						_load0 set [0, _sewpn_info0];			
 						player setUnitLoadout _load0;				
-						sleep 3;
+						//sleep 3;
 						player addMagazine "mag_null";
 						player removeMagazine "mag_null";
 						player selectWeapon primaryWeapon player;
@@ -93,11 +92,10 @@ if (_weapon_se_old isEqualTo "") then
 						_load0 set [0, _sewpn_info0];
 						_load0 set [1, []];
 						player setUnitLoadout _load0;
-						sleep 3;						
+						//sleep 3;						
 						localNamespace setVariable ["pwpn_info0",_pwpn_info0];
 						localNamespace setVariable ["pwpn_t",_weapon_p_old];
 						player addWeapon _tpw_mass_item;		
-						//			
 						player addMagazine "mag_null";
 						player removeMagazine "mag_null";
 						player selectWeapon primaryWeapon player;
@@ -110,8 +108,7 @@ if (_weapon_se_old isEqualTo "") then
 					_load0 set [0, _sewpn_info0];
 					_load0 set [1, []];
 					player setUnitLoadout _load0;
-					sleep 3;
-					//
+					//sleep 3;
 					player addMagazine "mag_null";
 					player removeMagazine "mag_null";
 					////player selectWeapon primaryWeapon player;
@@ -131,8 +128,7 @@ if (_weapon_se_old isEqualTo "") then
 						_pwpn_info2 =	localNamespace getVariable["pwpn_info0",[]];			
 						_load0 set  [0, _pwpn_info2];
 						player setUnitLoadout _load0;
-						sleep 3;
-						//
+						//sleep 3;
 						player addMagazine "mag_null";
 						player removeMagazine "mag_null";
 						player selectWeapon primaryWeapon player;	
@@ -147,7 +143,6 @@ if (_weapon_se_old isEqualTo "") then
 						_load0 set  [0, _pwpn_info2];
 						player setUnitLoadout _load0;						
 						player addWeapon _tpw_mass_item;		
-						//
 						localNamespace setVariable ["pwpn_info0",_pwpn_info0];
 						player selectWeapon primaryWeapon player;	
 						
@@ -160,8 +155,7 @@ if (_weapon_se_old isEqualTo "") then
 					_load0 set [1, []];
 					player setUnitLoadout _load0;
 					localNamespace setVariable ["pwpn_info0",_pwpn_info0];
-					sleep 3;
-					//
+					//sleep 3;
 					player addMagazine "mag_null";
 					player removeMagazine "mag_null";
 					//player selectWeapon primaryWeapon player;
