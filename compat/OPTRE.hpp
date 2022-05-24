@@ -1,4 +1,4 @@
-﻿		class OPTRE_M247;
+﻿	class OPTRE_M247;
 	class OPTRE_M295_BMR;
 	class optre_m295_bmr_desert;
 	class OPTRE_M295_BMR_Snow;

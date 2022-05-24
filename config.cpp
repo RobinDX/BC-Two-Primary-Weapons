@@ -2332,6 +2332,7 @@ class CfgWeapons
 	#include "\BC_TPW\compat\HAFM.hpp"
 	#include "\BC_TPW\compat\SFP_FIN.hpp"
 	#include "\BC_TPW\compat\rsi.hpp"
+	#include "\BC_TPW\compat\t1snow.hpp"
 	//#include "\BC_TPW\compat\blank2.hpp"
 	//#include "\BC_TPW\compat\blank3.hpp"
 };

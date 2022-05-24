@@ -9733,7 +9733,6 @@
 		type = 4;
 		scope = 1;
 		scopeArsenal = 0;
-		scopeArsenal = 0;
 		handAnim[] = {};
 		modes[] = {"Noob_Auto"};
 		class Noob_Auto:Noob_Auto{};
@@ -9754,7 +9753,6 @@
 		type = 4;
 		scope = 1;
 		scopeArsenal = 0;
-		scopeArsenal = 0;
 		handAnim[] = {};
 		modes[] = {"Noob_Auto"};
 		class Noob_Auto:Noob_Auto{};
@@ -9774,7 +9772,6 @@
 		enableAttack = 0;
 		type = 4;
 		scope = 1;
-		scopeArsenal = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		modes[] = {"Noob_Auto"};
