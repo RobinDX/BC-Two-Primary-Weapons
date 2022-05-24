@@ -24,12 +24,24 @@ class CfgFunctions
 				file = "\BC_TPW\functions\tpw.sqf";
 				description = "Two Primary Weapons";
 			};
+			/*
 			class tpw_init
 			{
 				file = "\BC_TPW\functions\init.sqf";
 				postInit	= 1;
+			};	
+			*/		
+		};
+		/*
+		class set
+		{
+			class tpw_Setup
+			{
+				file = "\BC_TPW\functions\Setup.sqf";
+				postInit = 1;
 			};
 		};
+		*/
 	};
 };
 
@@ -39,6 +51,10 @@ class Extended_PostInit_EventHandlers
 	class BC_wpn_dpw_post_init_event
 	{
 		init = "['BC Two Primary Weapons','tpw_key','Weapons swap',{call bc_fnc_tpw},'',[54,[true,false,false]]] call CBA_fnc_addKeybind;";
+	};
+	class tpw_init
+	{
+		init = execVM "\BC_TPW\functions\init.sqf";
 	};
 };
 
@@ -121,6 +137,7 @@ class CfgWeapons
 		displayName = "Noob GL";
 		modes[] = {"Noob_Auto"};
 		enableAttack = 0;
+		showToPlayer = 0;
 		class Noob_Auto: Noob_Auto{};
 	};
 	class ItemCore;
@@ -2289,6 +2306,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {""};
 	};
 	#include "\BC_TPW\compat\rhs_blue.hpp"
+	#include "\BC_TPW\compat\MCX.hpp"
 	#include "\BC_TPW\compat\bad_apple.hpp"
 	#include "\BC_TPW\compat\CUP_AK12.hpp"
 	#include "\BC_TPW\compat\KT.hpp"
@@ -2305,6 +2323,15 @@ class CfgWeapons
 	#include "\BC_TPW\compat\blank.hpp"
 	#include "\BC_TPW\compat\USCM.hpp"
 	#include "\BC_TPW\compat\BC_SA.hpp"
+	#include "\BC_TPW\compat\SLTS.hpp"
+	#include "\BC_TPW\compat\LAGO.hpp"
+	#include "\BC_TPW\compat\QIN_CZ_BREN2.hpp"
+	#include "\BC_TPW\compat\minzhu_AK.hpp"
+	#include "\BC_TPW\compat\OPTRE.hpp"
+	#include "\BC_TPW\compat\TIOW.hpp"
+	#include "\BC_TPW\compat\HAFM.hpp"
+	#include "\BC_TPW\compat\SFP_FIN.hpp"
+	#include "\BC_TPW\compat\rsi.hpp"
 	//#include "\BC_TPW\compat\blank2.hpp"
 	//#include "\BC_TPW\compat\blank3.hpp"
 };
@@ -2318,9 +2345,17 @@ class CfgMagazines
 		scope = 1;
 		descriptionShort = "mag_null";
 		displayName = "mag_null";
-		picture = "\A3\Weapons_F\Data\UI\M_30Rnd_45ACP_CA.paa";
 		count = 1;
 		mass = 0.2;
+		author = "BoBcats";
+		descriptionshort = "null";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+		ammo = "B_65x39_Caseless";
+		model = "a3\Weapons_F\MagazineProxies\mag_65x39c_mx_30rnd.p3d";
+		picture = "\A3\weapons_f\data\ui\m_30stanag_caseless_CA.paa";
+		modelSpecial = "a3\Weapons_F\MagazineProxies\mag_65x39c_mx_30rnd.p3d";
+		modelSpecialIsProxy = 0;
 	};
 };
 

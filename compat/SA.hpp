@@ -33,8 +33,6 @@
 		hiddenSelections[] = {"zasleh"};
 		hiddenSelectionsTextures[] = {""};	
 	};
-	
-
 	class JAS_PRS_RSASS_Blk;
 	class JAS_PRS_RSASS_Blk_bcsewpn: JAS_PRS_RSASS_Blk
 	{
