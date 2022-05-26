@@ -10,26 +10,28 @@ _weapon_p_base = getText (_wpnCfg >> "baseWeapon");
 
 _nv_state = currentVisionMode player;
 
-_weapon_mass = (getNumber (configfile >> "CfgWeapons" >> _weapon_p_old >> "WeaponSlotsInfo" >> "mass"));
-_weapon_acc0 = _pwpn_info0 param [1, "0"];
-_mass_acc0 = (getNumber (configfile >> "CfgWeapons" >> _weapon_acc0 >> "ItemInfo" >> "mass")) ;
-_weapon_acc1 = _pwpn_info0 param [2, "0"];
-_mass_acc1 = (getNumber (configfile >> "CfgWeapons" >> _weapon_acc1 >> "ItemInfo" >> "mass")) ;
-_weapon_acc2 = _pwpn_info0 param [3, "0"];
-_mass_acc2 = (getNumber (configfile >> "CfgWeapons" >> _weapon_acc2 >> "ItemInfo" >> "mass")) ;
-_weapon_acc3 = _pwpn_info0 param [6, "0"];
-_mass_acc3 = (getNumber (configfile >> "CfgWeapons" >> _weapon_acc3 >> "ItemInfo" >> "mass")) ;
-_mass_acc = _mass_acc0 + _mass_acc1 + _mass_acc2 + _mass_acc3;
-_weapon_pmag = (_pwpn_info0 param [4]) param [0];
-_mass_pmag = (getNumber (configfile >> "CfgMagazines" >> _weapon_pmag  >> "mass")) ;
-if ( isNil "_weapon_pmag" ) then {_mass_pmag = 0;};
-_weapon_uglmag = (_pwpn_info0 param [5]) param [0];
-_mass_uglmag = (getNumber (configfile >> "CfgMagazines" >> _weapon_uglmag  >> "mass")) ;
-if ( isNil "_weapon_uglmag" ) then {_mass_uglmag = 0;};
-_mass_mag = _mass_pmag + _mass_uglmag;
-_mass_all = _weapon_mass + _mass_acc + _mass_mag;
-_mass_all = round _mass_all;
-_tpw_mass_item = format["%1%2","bc_mass_item_",_mass_all];
+if (_weapon_p_old isnotEqualTo "") then {
+		_weapon_mass = (getNumber (configfile >> "CfgWeapons" >> _weapon_p_old >> "WeaponSlotsInfo" >> "mass"));
+		_weapon_acc0 = _pwpn_info0 param [1, "0"];
+		_mass_acc0 = (getNumber (configfile >> "CfgWeapons" >> _weapon_acc0 >> "ItemInfo" >> "mass"));
+		_weapon_acc1 = _pwpn_info0 param [2, "0"];
+		_mass_acc1 = (getNumber (configfile >> "CfgWeapons" >> _weapon_acc1 >> "ItemInfo" >> "mass"));
+		_weapon_acc2 = _pwpn_info0 param [3, "0"];
+		_mass_acc2 = (getNumber (configfile >> "CfgWeapons" >> _weapon_acc2 >> "ItemInfo" >> "mass"));
+		_weapon_acc3 = _pwpn_info0 param [6, "0"];
+		_mass_acc3 = (getNumber (configfile >> "CfgWeapons" >> _weapon_acc3 >> "ItemInfo" >> "mass"));
+		_mass_acc = _mass_acc0 + _mass_acc1 + _mass_acc2 + _mass_acc3;
+		_weapon_pmag = (_pwpn_info0 param [4]) param [0,"Nil"];
+		_mass_pmag = (getNumber (configfile >> "CfgMagazines" >> _weapon_pmag  >> "mass"));
+		if ( isNil "_weapon_pmag" ) then {_mass_pmag = 0;};
+		_weapon_uglmag = (_pwpn_info0 param [5]) param [0,"Nil"];
+		_mass_uglmag = (getNumber (configfile >> "CfgMagazines" >> _weapon_uglmag  >> "mass"));
+		if ( isNil "_weapon_uglmag" ) then {_mass_uglmag = 0;};
+		_mass_mag = _mass_pmag + _mass_uglmag;
+		_mass_all = _weapon_mass + _mass_acc + _mass_mag;
+		_mass_all = round _mass_all;
+		_tpw_mass_item = format["%1%2","bc_mass_item_",_mass_all];
+	};
 
 
 _weapon_model = getText (_wpnCfg >> "model"); 
