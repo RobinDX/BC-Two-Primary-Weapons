@@ -10,15 +10,6 @@ _weapon_p_base = getText (_wpnCfg >> "baseWeapon");
 
 _nv_state = currentVisionMode player;
 
-
-
-
-
-_weapon_model = getText (_wpnCfg >> "model"); 
-parsingNamespace setVariable ["twp_weapon_model",_weapon_model];
-_weapon_picture = getText (_wpnCfg >> "picture"); 
-parsingNamespace setVariable ["twp_weapon_picture",_weapon_picture];
-
 if ((!isClass (configFile >> "CfgWeapons" >> _weapon_se_new)) && (_weapon_p_base isnotEqualTo "")) then
 	{
 		_weapon_se_new = format["%1%2",_weapon_p_base,"_bcsewpn"];		
