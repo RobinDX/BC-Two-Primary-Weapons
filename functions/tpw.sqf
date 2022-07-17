@@ -7,8 +7,15 @@ _weapon_se_new = format["%1%2",_weapon_p_old,"_bcsewpn"];
 _weapon_p_new = [_weapon_se_old, 0, -8] call BIS_fnc_trimString;
 _wpnCfg = configFile >> "cfgWeapons" >> _weapon_p_old; 
 _weapon_p_base = getText (_wpnCfg >> "baseWeapon"); 
+_stance_p = stance player;
+if  ((_weapon_p_base isEqualTo "") && (isClass (configFile >> "CfgWeapons" >> _weapon_p_old >> "LinkedItems"))) then
+	{
+		_weapon_p_base_pre = inheritsFrom (configFile >> "cfgWeapons" >> _weapon_p_old); 
+		_weapon_p_base = configName _weapon_p_base_pre;
+	};
 
 _nv_state = currentVisionMode player;
+
 
 if ((!isClass (configFile >> "CfgWeapons" >> _weapon_se_new)) && (_weapon_p_base isnotEqualTo "")) then
 	{
@@ -27,7 +34,10 @@ if (_weapon_se_old isEqualTo "") then
 			//sleep 3;
 			player addMagazine "mag_null";
 			player removeMagazine "mag_null";
-			//player playAction "SecondaryWeapon";
+			if ((BC_TPW_action) && !("Lying" in (pose player))) then 	
+			{
+				player playAction "SecondaryWeapon";
+			};
 		} else
 		{
 			
@@ -58,7 +68,10 @@ if (_weapon_se_old isEqualTo "") then
 			
 			player addWeapon _tpw_mass_item;
 			player removeWeapon _weapon_p_old;
-			//player playAction "SecondaryWeapon";
+			if ((BC_TPW_action) && !("Lying" in (pose player))) then 	
+			{
+				player playAction "SecondaryWeapon";
+			};
 		};
 	}else
 	{
@@ -78,7 +91,10 @@ if (_weapon_se_old isEqualTo "") then
 						player addMagazine "mag_null";
 						player removeMagazine "mag_null";
 						player selectWeapon primaryWeapon player;
-						
+						if ((BC_TPW_action) && !("Lying" in (pose player))) then 	
+						{
+							player playAction "SecondaryWeapon";
+						};
 					} else
 					{
 						hint "Weapon do not support, work in Compatible Mode";
@@ -116,7 +132,10 @@ if (_weapon_se_old isEqualTo "") then
 						player addMagazine "mag_null";
 						player removeMagazine "mag_null";
 						player selectWeapon primaryWeapon player;
-						
+						if ((BC_TPW_action) && !("Lying" in (pose player))) then 	
+						{
+							player playAction "SecondaryWeapon";
+						};
 					};
 				} else
 				{
@@ -129,7 +148,6 @@ if (_weapon_se_old isEqualTo "") then
 					player addMagazine "mag_null";
 					player removeMagazine "mag_null";
 					////player selectWeapon primaryWeapon player;
-					
 				};
 			};
 			
@@ -149,7 +167,10 @@ if (_weapon_se_old isEqualTo "") then
 						player addMagazine "mag_null";
 						player removeMagazine "mag_null";
 						player selectWeapon primaryWeapon player;	
-						
+						if ((BC_TPW_action) && !("Lying" in (pose player))) then 	
+						{
+							player playAction "SecondaryWeapon";
+						};
 					} else
 					{
 						
@@ -184,7 +205,10 @@ if (_weapon_se_old isEqualTo "") then
 						player addWeapon _tpw_mass_item;		
 						localNamespace setVariable ["pwpn_info0",_pwpn_info0];
 						player selectWeapon primaryWeapon player;	
-						
+						if ((BC_TPW_action) && !("Lying" in (pose player))) then 	
+						{
+							player playAction "SecondaryWeapon";
+						};
 					};
 				} else
 				{
@@ -204,9 +228,9 @@ if (_weapon_se_old isEqualTo "") then
 		if (!("_bcsewpn" in _weapon_se_old) && !("bc_mass_item" in _weapon_se_old)) then
 			{hint "Launchslot is in use"};
 	};
+
 if (_nv_state isnotEqualTo 0) then
 	{
 	player action ["nvGoggles", player];
 	};
-	
-//player setUserActionText [_bc_tpw_id, format["Swap Weapon %1", getText (configFile >> "CfgWeapons" >> (secondaryWeapon player) >> "displayName")]];
+

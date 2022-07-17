@@ -2199,11 +2199,63 @@
 		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat"};
 	};
 	
+	class kt_cslr4;
+	class kt_cslr4_2;
+	class kt_cslr4_3;
 	class kt_cslr4_50;
 	class kt_cslr4_50_2;
 	class kt_cslr4_338;
 	class kt_cslr4_338_2;
+	class kt_cslr4_65;
+	class kt_cslr4_65_2;
+	class kt_qbu203;
+	class kt_qbu2032;
 	
+	class kt_cslr4_bcsewpn:	  kt_cslr4{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	class kt_cslr4_2_bcsewpn:	  kt_cslr4_2{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	class kt_cslr4_3_bcsewpn:	  kt_cslr4_3{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
 	class kt_cslr4_50_bcsewpn:	  kt_cslr4_50{
 		enableAttack = 0;
 		type = 4;
@@ -2264,3 +2316,64 @@
 		hiddenSelections[] = {"zasleh"};
 		hiddenSelectionsTextures[] = {""};
 	};
+	class kt_cslr4_65_bcsewpn:	  kt_cslr4_65{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	class kt_cslr4_65_2_bcsewpn:	  kt_cslr4_65_2{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	class kt_qbu203_bcsewpn:	  kt_qbu203{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	class kt_qbu2032_bcsewpn:	  kt_qbu2032{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	

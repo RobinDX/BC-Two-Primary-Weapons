@@ -1739,4 +1739,451 @@
 	hiddenSelections[] = {"zasleh"};
 	hiddenSelectionsTextures[] = {""};
 	};
+	
+	class vn_f1_smg;
+	class vn_m16_usaf;
+	class vn_xm16e1;
+	class vn_xm16e1_xm148;
+	class vn_m16_m203;
+	class vn_m16_m203_camo;
+	class vn_gau5a;
+	class vn_xm177e1;
+	class vn_xm177e1_camo;
+	class vn_m1_garand;
+	class vn_m1_garand_gl;
+	class vn_m14a1;
+	class vn_m14a1_camo;
+	class vn_l1a1_01;
+	class vn_l1a1_01_gl;
+	class vn_l1a1_01_camo;
+	class vn_l1a1_02;
+	class vn_l1a1_02_gl;
+	class vn_l1a1_02_camo;
+	class vn_l1a1_03;
+	class vn_l1a1_03_camo;
+	class vn_l1a1_xm148;
+	class vn_l1a1_xm148_camo;
+	class vn_l2a1_01;
+	class vn_vz54;
+	class vn_m1918;	
+	
+	class vn_f1_smg_bcsewpn: vn_f1_smg
+	{
+		hiddenSelections[] = {"zasleh","camo1"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\f1\data\vn_f1_smg_01_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+
+	class vn_m16_usaf_bcsewpn: vn_m16_usaf
+	{
+		hiddenSelections[] = {"zasleh","camo1"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\m16a1\data\vn_xm16e1_usaf_co.paa"};	
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_xm16e1_bcsewpn: vn_xm16e1
+	{
+		hiddenSelections[] = {"zasleh","camo1"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\m16a1\data\vn_xm16e1_01_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_xm16e1_xm148_bcsewpn: vn_xm16e1_xm148
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\m16a1\data\vn_xm16e1_01_co.paa","\vn\weapons_f_vietnam\xm177\data\vn_xm148_01_co.paa","\vn\weapons_f_vietnam\m16a1\data\vn_m16_handguard_01_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_m16_m203_bcsewpn: vn_m16_m203
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam\m16a1\data\vn_m16_01_co.paa","\vn\weapons_f_vietnam_03\m16a1\data\vn_m16_m203_01_co.paa","\vn\weapons_f_vietnam_03\m16a1\data\vn_xm16e1_usaf_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_m16_m203_camo_bcsewpn: vn_m16_m203_camo
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam\m16a1\data\vn_m16_01_g_co.paa","\vn\weapons_f_vietnam_03\m16a1\data\vn_m16_m203_02_co.paa","\vn\weapons_f_vietnam_03\m16a1\data\vn_xm16e1_usaf_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_gau5a_bcsewpn: vn_gau5a
+	{
+		hiddenSelections[] = {"zasleh","camo1"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\xm177\data\vn_gau5a_01_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_xm177e1_bcsewpn: vn_xm177e1
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\xm177\data\vn_xm177e1_01_co.paa","\vn\weapons_f_vietnam\m16a1\data\vn_m16_01_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_xm177e1_camo_bcsewpn: vn_xm177e1_camo
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam\xm177\data\vn_xm177_01_camo_co.paa","\vn\weapons_f_vietnam\m16a1\data\vn_m16_01_co.paa"};	
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	
+	class vn_m1_garand_bcsewpn: vn_m1_garand
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\m1_garand\data\vn_m1_garand_co.paa","\vn\weapons_f_vietnam_03\m1_garand\data\vn_m1_garand_atlas_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_m1_garand_gl_bcsewpn: vn_m1_garand_gl
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\m1_garand\data\vn_m1_garand_co.paa","\vn\weapons_f_vietnam_03\m1_garand\data\vn_m1_garand_atlas_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_m14a1_bcsewpn: vn_m14a1
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam\m14\data\vn_m14_01_co.paa","vn\weapons_f_vietnam_03\m14\data\vn_m14a1_01_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_m14a1_camo_bcsewpn: vn_m14a1_camo
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam\m14\data\vn_m14_02_co.paa","vn\weapons_f_vietnam_03\m14\data\vn_m14a1_02_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_l1a1_01_bcsewpn: vn_l1a1_01
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_01_co.paa","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_atlas_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_l1a1_01_camo_bcsewpn: vn_l1a1_01_camo	
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_01_camo_co.paa","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_atlas_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_l1a1_01_gl_bcsewpn: vn_l1a1_01_gl
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_01_camo_co.paa","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_atlas_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_l1a1_02_bcsewpn: vn_l1a1_02
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_02_co.paa","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_atlas_co.paa"};	
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_l1a1_02_camo_bcsewpn: vn_l1a1_02_camo
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_01_camo_co.paa","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_atlas_co.paa"};	
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_l1a1_02_gl_bcsewpn: vn_l1a1_02_gl
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_02_co.paa","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_atlas_co.paa"};	
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_l1a1_03_bcsewpn: vn_l1a1_03
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_02_co.paa","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_atlas_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_l1a1_03_camo_bcsewpn: vn_l1a1_03_camo
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_01_camo_co.paa","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_atlas_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_l1a1_xm148_bcsewpn: vn_l1a1_xm148
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_01_co.paa","\vn\weapons_f_vietnam\xm177\data\vn_xm148_01_co.paa","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_atlas_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_l1a1_xm148_camo_bcsewpn: vn_l1a1_xm148_camo
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_01_camo_co.paa","\vn\weapons_f_vietnam\xm177\data\vn_xm148_01_camo_co.paa","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_atlas_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_l2a1_01_bcsewpn: vn_l2a1_01
+	{
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_01_co.paa","\vn\weapons_f_vietnam_03\l1a1\data\vn_l1a1_atlas_co.paa"};	
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_vz54_bcsewpn: vn_vz54
+	{
+		hiddenSelections[] = {"zasleh","camo1"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\vz54\data\vn_vz54_01_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+	class vn_m1918_bcsewpn: vn_m1918
+	{
+		hiddenSelections[] = {"zasleh","camo1"};
+		hiddenSelectionsTextures[] = {"","\vn\weapons_f_vietnam_03\m1918\data\vn_m1918_01_co.paa"};
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+	};
+
 

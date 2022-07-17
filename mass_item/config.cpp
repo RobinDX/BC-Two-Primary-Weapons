@@ -42,6 +42,7 @@ class CfgWeapons
 	class bc_mass_item_base : launcher_weapon_base
 	{
 		enableAttack = 0;
+		showToPlayer = 0;
 		type = 4;
 		scope = 1;
 		author = "RobinDX";
