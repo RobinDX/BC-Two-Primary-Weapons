@@ -73,6 +73,7 @@ if (_weapon_se_old isEqualTo "") then
 				player playAction "SecondaryWeapon";
 			};
 		};
+		localNamespace setVariable ["have_grip",0];
 	}else
 	{
 		if ("_bcsewpn" in _weapon_se_old) then 
@@ -224,6 +225,7 @@ if (_weapon_se_old isEqualTo "") then
 					//player selectWeapon primaryWeapon player;
 					
 				};
+				localNamespace setVariable ["have_grip",0];
 			};
 		if (!("_bcsewpn" in _weapon_se_old) && !("bc_mass_item" in _weapon_se_old)) then
 			{hint "Launchslot is in use"};
