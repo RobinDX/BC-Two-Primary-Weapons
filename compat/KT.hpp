@@ -331,8 +331,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","vfg","humu2","yuan","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\rhsusf\addons\rhsusf_weapons\m4\data\rhs_foregrip_black_co.paa","\kt_m1102\data\rail_ar_mk8_13_blk41.paa","\kt_m1102\data\hu_blk.paa","\A3\Weapons_F_Exp\Rifles\SPAR_03\Data\arifle_SPAR_03_blk_F_01_co.paa","\A3\Weapons_F_Exp\Rifles\SPAR_03\Data\arifle_SPAR_03_blk_F_02_co.paa","\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\arifle_SPAR_01_blk_F_01_co.paa"};
 	};
 	class kt_M110A1_ral02;	
 	class kt_M110A1_ral02_bcsewpn:	  kt_M110A1_ral02{
@@ -347,8 +347,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","vfg","humu2","yuan","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\kt_m1102\data2\rhs_foregrip_de_co.paa","\kt_m1102\data\rail_ar_mk8_13_ral21.paa","\kt_m1102\data\hu_ral.paa","\kt_m1102\data2\arifle_SPAR_03_01_de.paa","\kt_m1102\data2\arifle_SPAR_03_02_de.paa","\kt_m1102\data2\arifle_SPAR_01_01_de.paa"};
 	};
 	class kt_M110A1_fde02;	
 	class kt_M110A1_fde02_bcsewpn:	  kt_M110A1_fde02{
@@ -363,8 +363,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","vfg","humu2","yuan","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\kt_m1102\data2\rhs_foregrip_de_co.paa","\kt_m1102\data\rail_ar_mk8_13_de21.paa","\kt_m1102\data\hu_de.paa","\kt_m1102\data2\arifle_SPAR_03_01_de.paa","\kt_m1102\data2\arifle_SPAR_03_02_de.paa","\kt_m1102\data2\arifle_SPAR_01_01_de.paa"};
 	};
 	class kt_M110A1_sand02;	
 	class kt_M110A1_sand02_bcsewpn:	  kt_M110A1_sand02{
@@ -379,8 +379,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","vfg","humu2","yuan","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\kt_m1102\data2\rhs_foregrip_sand_co.paa","\kt_m1102\data\rail_ar_mk8_13_sand.paa","\kt_m1102\data\hu_sand.paa","\kt_m1102\data2\arifle_SPAR_03_snd_F_01_co.paa","\A3\Weapons_F_Exp\Rifles\SPAR_03\Data\arifle_SPAR_03_snd_F_02_co.paa","\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\arifle_SPAR_01_snd_F_01_co.paa"};
 	};
 	class kt_M110A1_khk02;	
 	class kt_M110A1_khk02_bcsewpn:	  kt_M110A1_khk02{
@@ -395,8 +395,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","vfg","humu2","yuan","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\kt_m1102\data2\rhs_foregrip_khk_co.paa","\kt_m1102\data\rail_ar_mk8_13_khk.paa","\kt_m1102\data\hu_khk.paa","\kt_m1102\data2\arifle_SPAR_03_khk_F_01_co.paa","\A3\Weapons_F_Exp\Rifles\SPAR_03\Data\arifle_SPAR_03_khk_F_02_co.paa","\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\arifle_SPAR_01_khk_F_01_co.paa"};
 	};
 	class kt_M110A1_blk03;	
 	class kt_M110A1_blk03_bcsewpn:	  kt_M110A1_blk03{
@@ -411,8 +411,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","vfg","humu2","yuan","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\rhsusf\addons\rhsusf_weapons\m4\data\rhs_foregrip_black_co.paa","\kt_m1102\data\rail_ar_mk8_13_blk41.paa","\kt_m1102\data\hu_blk.paa","\A3\Weapons_F_Exp\Rifles\SPAR_03\Data\arifle_SPAR_03_blk_F_01_co.paa","\A3\Weapons_F_Exp\Rifles\SPAR_03\Data\arifle_SPAR_03_blk_F_02_co.paa","\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\arifle_SPAR_01_blk_F_01_co.paa"};
 	};
 	class kt_M110A1_ral03;	
 	class kt_M110A1_ral03_bcsewpn:	  kt_M110A1_ral03{
@@ -427,8 +427,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","vfg","humu2","yuan","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\kt_m1102\data2\rhs_foregrip_de_co.paa","\kt_m1102\data\rail_ar_mk8_13_ral21.paa","\kt_m1102\data\hu_ral.paa","\kt_m1102\data2\arifle_SPAR_03_01_de.paa","\kt_m1102\data2\arifle_SPAR_03_02_de.paa","\kt_m1102\data2\arifle_SPAR_01_01_de.paa"};
 	};
 	class kt_M110A1_fde03;	
 	class kt_M110A1_fde03_bcsewpn:	  kt_M110A1_fde03{
@@ -443,8 +443,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","vfg","humu2","yuan","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\kt_m1102\data2\rhs_foregrip_de_co.paa","\kt_m1102\data\rail_ar_mk8_13_de21.paa","\kt_m1102\data\hu_de.paa","\kt_m1102\data2\arifle_SPAR_03_01_de.paa","\kt_m1102\data2\arifle_SPAR_03_02_de.paa","\kt_m1102\data2\arifle_SPAR_01_01_de.paa"};
 	};
 	class kt_M110A1_khk03;	
 	class kt_M110A1_khk03_bcsewpn:	  kt_M110A1_khk03{
@@ -459,8 +459,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","vfg","humu2","yuan","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\kt_m1102\data2\rhs_foregrip_sand_co.paa","\kt_m1102\data\rail_ar_mk8_13_sand.paa","\kt_m1102\data\hu_sand.paa","\kt_m1102\data2\arifle_SPAR_03_snd_F_01_co.paa","\A3\Weapons_F_Exp\Rifles\SPAR_03\Data\arifle_SPAR_03_snd_F_02_co.paa","\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\arifle_SPAR_01_snd_F_01_co.paa"};
 	};
 	class kt_M110A1_sand03;	
 	class kt_M110A1_sand03_bcsewpn:	  kt_M110A1_sand03{
@@ -475,8 +475,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","vfg","humu2","yuan","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\kt_m1102\data2\rhs_foregrip_sand_co.paa","\kt_m1102\data\rail_ar_mk8_13_sand.paa","\kt_m1102\data\hu_sand.paa","\kt_m1102\data2\arifle_SPAR_03_snd_F_01_co.paa","\A3\Weapons_F_Exp\Rifles\SPAR_03\Data\arifle_SPAR_03_snd_F_02_co.paa","\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\arifle_SPAR_01_snd_F_01_co.paa"};
 	};
 	class kt_MK20_SSR;	
 	class kt_MK20_SSR_bcsewpn:	  kt_MK20_SSR{
@@ -865,8 +865,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","all","bolt2"};
+		hiddenSelectionsTextures[] = {"","\kt_tac50\ax50_tan2\ax50_tan.paa",""};
 	};
 	class ax50_blk_bcsewpn: ax50_blk{
 		enableAttack = 0;
@@ -1571,12 +1571,31 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","all"};
+		hiddenSelectionsTextures[] = {"","\kt_ar15\data2\mlok\mlok.paa"};
 	};
 	class ar15_mlok_grip_bcsewpn: ar15_mlok_bcsewpn{};	
 	class ar15_mlok_grip2_bcsewpn: ar15_mlok_bcsewpn{};	
-	class ar15_mlok_grip3_bcsewpn: ar15_mlok_bcsewpn{};	
+	class ar15_mlok_grip3_bcsewpn: ar15_mlok_bcsewpn{};
+	class ar15_mlok_blk;	
+	class ar15_mlok_blk_bcsewpn:	 ar15_mlok_blk{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","all"};
+		hiddenSelectionsTextures[] = {"","\kt_ar15\data2\mlok\mlok_02.paa"};
+	};
+	class ar15_mlok_blk_grip_bcsewpn: ar15_mlok_blk_bcsewpn{};	
+	class ar15_mlok_blk_grip2_bcsewpn: ar15_mlok_blk_bcsewpn{};	
+	class ar15_mlok_blk_grip3_bcsewpn: ar15_mlok_blk_bcsewpn{};	
 	class ar15_urgi_cqc;	
 	class ar15_urgi_cqc_bcsewpn:	 ar15_urgi_cqc{
 		enableAttack = 0;
@@ -1666,8 +1685,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","camo3","urgigl2"};
+		hiddenSelectionsTextures[] = {"","",""};
 	};
 	class ar15_urgi_ctrgl_grip_bcsewpn: ar15_urgi_ctrgl_bcsewpn{};	
 	class ar15_urgi_ctrgl_grip2_bcsewpn: ar15_urgi_ctrgl_bcsewpn{};	
@@ -1685,8 +1704,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","gl01","gl02","13b","camo3"};
+		hiddenSelectionsTextures[] = {"","kt_ar15\data2\urgi\eglm_co_tan2.paa","kt_ar15\data2\mk13\mk13_co.paa","",""};
 	};
 	class ar15_urgi_ctrgl02_grip_bcsewpn: ar15_urgi_ctrgl02_bcsewpn{};	
 	class ar15_urgi_ctrgl02_grip2_bcsewpn: ar15_urgi_ctrgl02_bcsewpn{};	
@@ -1704,8 +1723,8 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh"};
-		hiddenSelectionsTextures[] = {""};
+		hiddenSelections[] = {"zasleh","urgictr","ctr","gl01","gl02","13b","camo3","urgigl2"};
+		hiddenSelectionsTextures[] = {"","\kt_ar15\data2\urgi\one_02.paa","\kt_ar15\data2\ctr\ctr_blk.paa","\kt_ar15\data2\urgi\eglm_co_black.paa","\kt_ar15\data2\urgi\eglm_co_black.paa","\kt_ar15\data3\13b2.paa","",""};
 	};
 	class ar15_urgi_cqcgl;	
 	class ar15_urgi_cqcgl_bcsewpn:	 ar15_urgi_cqcgl{
@@ -1723,7 +1742,6 @@
 		hiddenSelections[] = {"zasleh"};
 		hiddenSelectionsTextures[] = {""};
 	};
-
 	class ar15_kmod_mlok;	
 	class ar15_kmod_mlok_bcsewpn:	 ar15_kmod_mlok{
 		enableAttack = 0;
