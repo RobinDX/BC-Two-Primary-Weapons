@@ -66,6 +66,8 @@ class Mode_FullAuto;
 class Noob_Auto :Mode_SemiAuto
 {
 	showToPlayer = 0;
+	showSwitchAction = 0;
+	enableAttack = 0;
 	displayName = "Noob";
 	textureType = "burst";
 	recoil = "recoil_auto_primary_3outof10";
@@ -158,7 +160,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -175,7 +177,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};		
 		class Noob_Auto:Noob_Auto{};		
@@ -192,7 +194,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -209,7 +211,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -226,13 +228,13 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
 		modes[] = {"Noob_Auto"};
 		class NGL: NGL{};
-		muzzles[] = {"this","NGL"};		
+		muzzles[] = {"this","NGL"};	
 		_generalMacro = "";
 		baseWeapon = "";
 		hiddenSelections[] = {"zasleh"};
@@ -243,7 +245,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -260,7 +262,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -277,7 +279,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -294,7 +296,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -311,7 +313,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -328,7 +330,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -345,7 +347,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -362,7 +364,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -379,7 +381,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -396,7 +398,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -414,7 +416,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -431,7 +433,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -448,7 +450,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -465,7 +467,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -482,7 +484,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -499,7 +501,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -516,7 +518,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -533,7 +535,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -550,7 +552,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -567,7 +569,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -584,7 +586,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -601,7 +603,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -618,7 +620,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -635,7 +637,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -652,7 +654,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -669,7 +671,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -686,7 +688,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -703,7 +705,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -720,7 +722,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -737,7 +739,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -754,7 +756,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -771,7 +773,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -788,7 +790,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -805,7 +807,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -823,7 +825,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -841,7 +843,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -858,7 +860,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -876,7 +878,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -893,7 +895,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -910,7 +912,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -927,7 +929,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -944,7 +946,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -961,7 +963,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -978,7 +980,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -995,7 +997,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1012,7 +1014,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1029,7 +1031,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1046,7 +1048,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1063,7 +1065,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1080,7 +1082,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1097,7 +1099,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1114,7 +1116,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1131,7 +1133,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1148,7 +1150,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1166,7 +1168,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1184,7 +1186,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1201,7 +1203,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1219,7 +1221,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1237,7 +1239,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1255,7 +1257,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1273,7 +1275,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1291,7 +1293,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1309,7 +1311,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1327,7 +1329,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1345,7 +1347,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1362,7 +1364,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1379,7 +1381,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1396,7 +1398,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1413,7 +1415,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1430,7 +1432,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1447,7 +1449,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1464,7 +1466,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1481,7 +1483,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1498,7 +1500,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1515,7 +1517,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1532,7 +1534,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1549,7 +1551,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1566,7 +1568,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1583,7 +1585,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1600,7 +1602,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1618,7 +1620,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1636,7 +1638,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1657,7 +1659,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1675,7 +1677,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1693,7 +1695,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1719,7 +1721,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1736,7 +1738,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1753,7 +1755,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1770,7 +1772,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1786,7 +1788,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1803,7 +1805,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1821,7 +1823,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1839,7 +1841,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1860,7 +1862,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1876,7 +1878,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1896,7 +1898,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1913,7 +1915,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1930,7 +1932,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1951,7 +1953,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1969,7 +1971,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -1986,7 +1988,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2019,7 +2021,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2035,7 +2037,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2051,7 +2053,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2067,7 +2069,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2083,7 +2085,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2099,7 +2101,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2115,7 +2117,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2131,7 +2133,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2147,7 +2149,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2163,7 +2165,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2179,7 +2181,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2195,7 +2197,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2211,7 +2213,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2227,7 +2229,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2243,7 +2245,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2259,7 +2261,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2276,7 +2278,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2293,7 +2295,7 @@ class CfgWeapons
 	{
 		enableAttack = 0;
 		type = 4;
-		scope = 1;
+		scope = 0;
 		scopeArsenal = 0;
 		handAnim[] = {};
 		class Noob_Auto:Noob_Auto{};		
@@ -2310,6 +2312,7 @@ class CfgWeapons
 	#include "\BC_TPW\compat\bad_apple.hpp"
 	#include "\BC_TPW\compat\CUP_AK12.hpp"
 	#include "\BC_TPW\compat\KT.hpp"
+	#include "\BC_TPW\compat\KT2.hpp"
 	#include "\BC_TPW\compat\ARD97.hpp"
 	#include "\BC_TPW\compat\CDLC_SOG.hpp"
 	#include "\BC_TPW\compat\Tier1.hpp"
@@ -2334,8 +2337,10 @@ class CfgWeapons
 	#include "\BC_TPW\compat\rsi.hpp"
 	#include "\BC_TPW\compat\t1snow.hpp"
 	#include "\BC_TPW\compat\YL.hpp"
+	#include "\BC_TPW\compat\rep_weapons_1st.hpp"
 	//#include "\BC_TPW\compat\blank2.hpp"
 	//#include "\BC_TPW\compat\blank3.hpp"
+	
 };
 
 class CfgMagazines
@@ -2344,13 +2349,12 @@ class CfgMagazines
 	class CA_Magazine;
 	class mag_null: CA_Magazine
 	{
-		scope = 1;
+		scope = 0;
 		descriptionShort = "mag_null";
 		displayName = "mag_null";
 		count = 1;
 		mass = 0.2;
-		author = "BoBcats";
-		descriptionshort = "null";
+		author = "RobinDX";
 		tracersEvery = 0;
 		lastRoundsTracer = 0;
 		ammo = "B_65x39_Caseless";

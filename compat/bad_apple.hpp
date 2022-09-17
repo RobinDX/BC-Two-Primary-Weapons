@@ -22067,8 +22067,7 @@
 		hiddenSelectionsTextures[] = {""};
 		hiddenSelectionsMaterials[] = {""};
 	};
-	class rhs_weap_vss_npz_grip1_bcsewpn: rhs_weap_asval_grip_npz_bcsewpn{};
-	class rhs_weap_vss_npz_afg_bcsewpn: rhs_weap_asval_grip_npz_bcsewpn{};
+	
 	class rhs_weap_vss;
 	class rhs_weap_vss_bcsewpn: rhs_weap_vss
 	{

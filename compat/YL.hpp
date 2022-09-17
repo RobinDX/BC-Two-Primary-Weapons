@@ -24,6 +24,8 @@
 	class YL_QBU191_BOLT;
 	class YL_QBZ191_BELT;
 	class YL_QBZ191_BELT_MAG;
+	class YL_QBU88;
+	class YL_QBU88T;
 	
 	class YL_QJS201_bcsewpn: YL_QJS201
 	{
@@ -500,3 +502,38 @@ class YL_QJS201_Retrofit_bcsewpn: YL_QJS201_Retrofit
 	class YL_QBZ191_BELT_MAG_grip_bcsewpn: YL_QBZ191_BELT_MAG_bcsewpn{};
 	class YL_QBZ191_BELT_MAG_grip2_bcsewpn: YL_QBZ191_BELT_MAG_bcsewpn{};
 	class YL_QBZ191_BELT_MAG_grip3_bcsewpn: YL_QBZ191_BELT_MAG_bcsewpn{};
+		
+	class YL_QBU88_bcsewpn: YL_QBU88
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+		hiddenSelectionsMaterials[] = {""};
+	};
+	class YL_QBU88T_bcsewpn: YL_QBU88T
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+		hiddenSelectionsMaterials[] = {""};
+	};
