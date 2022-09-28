@@ -25,7 +25,7 @@
 	class YL_QBZ191_BELT;
 	class YL_QBZ191_BELT_MAG;
 	class YL_QBU88;
-	class YL_QBU88T;
+	class YL_QBU88_T;
 	
 	class YL_QJS201_bcsewpn: YL_QJS201
 	{
@@ -520,7 +520,7 @@ class YL_QJS201_Retrofit_bcsewpn: YL_QJS201_Retrofit
 		hiddenSelectionsTextures[] = {""};
 		hiddenSelectionsMaterials[] = {""};
 	};
-	class YL_QBU88T_bcsewpn: YL_QBU88T
+	class YL_QBU88_T_bcsewpn: YL_QBU88_T
 	{
 		enableAttack = 0;
 		type = 4;
