@@ -116,3 +116,92 @@
   class Camel_k1_blk_grip3_bcsewpn: Camel_k1_blk_grip2_bcsewpn{};
 
 
+///////////winter MX
+	class bear_MX_SW_white_F;
+	class bear_MX_GL_white_F;
+	class bear_MX_white_F;
+	class bear_MXM_white_F;
+	class bear_MXC_white_F;
+	
+	class bear_MX_SW_white_F_bcsewpn: bear_MX_SW_white_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1"};
+		hiddenSelectionsTextures[] = {"","\Bear_MX\xmx_lmg_co.paa"};
+	};
+	class bear_MX_white_F_bcsewpn: bear_MX_white_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\Bear_MX\xmx_base_co.paa","\Bear_MX\xmx_short_co.paa"};
+	};
+	class bear_MX_GL_white_F_bcsewpn: bear_MX_GL_white_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\Bear_MX\xmx_base_co.paa","\Bear_MX\glx_co.paa"};
+	};
+
+	class bear_MXM_white_F_bcsewpn: bear_MXM_white_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1"};
+		hiddenSelectionsTextures[] = {"","\Bear_MX\xmx_long_co.paa","\Bear_MX\xmx_handle_co.paa"};
+	};
+
+	class bear_MXC_white_F_bcsewpn: bear_MXC_white_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1"};
+		hiddenSelectionsTextures[] = {"","\Bear_MX\xmx_short_co.paa"};
+	};

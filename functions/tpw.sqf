@@ -8,6 +8,18 @@ _weapon_p_new = [_weapon_se_old, 0, -8] call BIS_fnc_trimString;
 _wpnCfg = configFile >> "cfgWeapons" >> _weapon_p_old; 
 _weapon_p_base = getText (_wpnCfg >> "baseWeapon"); 
 _stance_p = stance player;
+
+//TFAR get setting
+if (isClass (configfile >> "CfgPatches" >> "tfar_core")) then {
+	_sw_id = (call TFAR_fnc_activeSwRadio);
+	_sw_set	=	(call TFAR_fnc_activeSwRadio) call TFAR_fnc_getSwSettings;
+	_lw_set	=	(call TFAR_fnc_activeLrRadio) call TFAR_fnc_getLrSettings;
+	localNamespace setVariable ["_v_lw_set",_lw_set];
+	localNamespace setVariable ["_v_sw_set",_sw_set];
+	localNamespace setVariable ["_v_sw_id",_sw_id];
+};
+
+
 if  ((_weapon_p_base isEqualTo "") && (isClass (configFile >> "CfgWeapons" >> _weapon_p_old >> "LinkedItems"))) then
 	{
 		_weapon_p_base_pre = inheritsFrom (configFile >> "cfgWeapons" >> _weapon_p_old); 
@@ -236,3 +248,13 @@ if (_nv_state isnotEqualTo 0) then
 	player action ["nvGoggles", player];
 	};
 
+
+
+//TFAR setting
+if (isClass (configfile >> "CfgPatches" >> "tfar_core")) then {
+	_s_lw_set = localNamespace getVariable["_v_lw_set",[]];
+	_s_sw_set = localNamespace getVariable["_v_sw_set",[]];
+	_s_sw_id = localNamespace getVariable ["_v_sw_id",[]];
+	[call TFAR_fnc_activeLrRadio, _s_lw_set] call TFAR_fnc_setLrSettings;
+	[_s_sw_id, _s_sw_set] call TFAR_fnc_setSwSettings;	
+};
