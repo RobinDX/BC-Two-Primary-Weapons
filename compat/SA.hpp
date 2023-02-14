@@ -205,3 +205,73 @@
 		hiddenSelections[] = {"zasleh","camo1"};
 		hiddenSelectionsTextures[] = {"","\Bear_MX\xmx_short_co.paa"};
 	};
+	
+	////////////L115A3 Rework Project
+	class FM_L115A3_NoSpray;
+	class FM_L115A3_NoSpray_bcsewpn: FM_L115A3_NoSpray
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\FM_L115A3\data\awcstock_FDE_co.paa","\FM_L115A3\data\awc_scope_co.paa","\FM_L115A3\data\magnumbits_co.paa"};
+	};
+	class FM_L115A3_Desert;
+	class FM_L115A3_Desert_bcsewpn: FM_L115A3_Desert
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\FM_L115A3\data\L115A3_D_co.paa","\FM_L115A3\data\awc_scope_co.paa","\FM_L115A3\data\L115A3_Barrel_D_co.paa"};
+	};
+	class FM_L115A3_Woodland;
+	class FM_L115A3_Woodland_bcsewpn: FM_L115A3_Woodland
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\FM_L115A3\data\L115A3_W_co.paa","\FM_L115A3\data\awc_scope_co.paa","\FM_L115A3\data\L115A3_Barrel_W_co.paa"};
+	};
+	class FM_L115A3_Snow;
+	class FM_L115A3_Snow_bcsewpn: FM_L115A3_Snow
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\FM_L115A3\data\L115A3_S_co.paa","\FM_L115A3\data\awc_scope_co.paa","\FM_L115A3\data\L115A3_Barrel_S_co.paa"};
+	};

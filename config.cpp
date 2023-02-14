@@ -1248,9 +1248,9 @@ class CfgWeapons
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
-		hiddenSelectionsTextures[] = {"","a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_ak12_1_camo_co.paa","a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_ak12_2_camo_co.paa","a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_ak12_gl_camo_CO.paa"};
-		hiddenSelectionsMaterials[] = {"","a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_F_1_camo.rvmat","a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_F_2_camo.rvmat","a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_GL_F_camo.rvmat"};
+		hhiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_1_co.paa","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_2_co.paa","a3\Weapons_F_Enoch\Rifles\AK12\Data\AKU12_RPK12_parts_CO.paa"};
+		hiddenSelectionsMaterials[] = {"","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_F_1.rvmat","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_F_2.rvmat","a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_RPK12.rvmat"};
 	};
 	class arifle_RPK12_lush_F;
 	class arifle_RPK12_lush_F_bcsewpn: arifle_RPK12_lush_F
@@ -2341,6 +2341,7 @@ class CfgWeapons
 	#include "\BC_TPW\compat\age.hpp"
 	#include "\BC_TPW\compat\DGR.hpp"
 	#include "\BC_TPW\compat\aegis.hpp"
+	#include "\BC_TPW\compat\NIA_SCAR.hpp"
 	//#include "\BC_TPW\compat\blank2.hpp"
 	//#include "\BC_TPW\compat\blank3.hpp"
 	

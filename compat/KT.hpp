@@ -1957,9 +1957,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt2","hu"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_blk.paa","\kt_axmcasr\data\butt_blk.paa","","\kt_axmcasr\data\rifle_blk.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat"};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt2","hu","bipod"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_blk.paa","\kt_axmcasr\data\rifle_blk.paa","\kt_axmcasr\data\butt_blk.paa","","\kt_axmcasr\data\rifle_blk.paa","\kt_axmcasr\data\bipod_blk.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle3.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\bipod.rvmat"};
 	};
 	class kt_axmcasr_blk1_bcsewpn: kt_axmcasr_blk1
 	{
@@ -1974,26 +1974,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt2","hu"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_blk2.paa","\kt_axmcasr\data\butt_blk2.paa","","\kt_axmcasr\data\hu.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat"};
-	};
-	class kt_axmcasr_blk2_bcsewpn: kt_axmcasr_blk2
-	{
-		enableAttack = 0;
-		type = 4;
-		scope = 1;
-		scopeArsenal = 0;
-		handAnim[] = {};
-		class Noob_Auto:Noob_Auto{};		
-		modes[] = {"Noob_Auto"};
-		class NGL: NGL{};
-		muzzles[] = {"this","NGL"};
-		_generalMacro = "";
-		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt2""\kt_axmcasr\data2\rifle1.rvmat"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_blk2.paa","\kt_axmcasr\data\butt_blk2.paa","","\kt_axmcasr\data\hu.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle14.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle14.rvmat"};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt2","hu","bipod"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_blk2.paa","\kt_axmcasr\data\rifle_blk2.paa","\kt_axmcasr\data\butt_blk2.paa","","\kt_axmcasr\data\hu.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle3.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat"};
 	};
 	class kt_axmcasr_tan_bcsewpn: kt_axmcasr_tan
 	{
@@ -2008,9 +1991,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt2","hu","ba","guan"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\butt_tan.paa","","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\rifle_tan.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat"};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt2","hu","ba","guan","bipod"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\butt_tan.paa","","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\bipod_tan.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle3.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\bipod.rvmat"};
 	};
 	class kt_axmcasr_skin2_bcsewpn: kt_axmcasr_skin2
 	{
@@ -2025,9 +2008,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt2","hu","ba","guan"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\butt_skin2.paa","","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\rifle_skin2.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat"};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt2","hu","ba","guan","bipod"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\butt_skin2.paa","","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\bipod_skin2.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle3.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\bipod.rvmat"};
 	};
 	class kt_axmcasr_skin3_bcsewpn: kt_axmcasr_skin3
 	{
@@ -2042,9 +2025,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt2","hu","ba","guan"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\butt_skin3.paa","","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\rifle_skin3.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat"};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt2","hu","ba","guan","bipod"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\butt_skin3.paa","","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\bipod_skin3.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle3.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\bipod.rvmat"};
 	};
 	class kt_axmcasr_skin4_bcsewpn: kt_axmcasr_skin4
 	{
@@ -2059,9 +2042,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt2","hu","ba","guan"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\butt_skin4.paa","","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\rifle_skin4.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat"};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt2","hu","ba","guan","bipod"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\butt_skin4.paa","","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\bipod_skin4.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle3.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\bipod.rvmat"};
 	};
 	class kt_axmcasr_skin5_bcsewpn: kt_axmcasr_skin5
 	{
@@ -2076,9 +2059,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt2","hu","ba","guan"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\butt_skin5.paa","","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\rifle_skin5.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat"};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt2","hu","ba","guan","bipod"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\butt_skin5.paa","","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\bipod_skin5.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle3.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\bipod.rvmat"};
 	};
 	class kt_axmcasr_grey_bolt2_bcsewpn: kt_axmcasr_grey_bolt2
 	{
@@ -2093,9 +2076,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt2","hu"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_blk.paa","\kt_axmcasr\data\butt_blk.paa","","\kt_axmcasr\data\rifle_blk.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat"};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt2","hu","bipod"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_blk.paa","\kt_axmcasr\data\rifle_blk.paa","\kt_axmcasr\data\butt_blk.paa","","\kt_axmcasr\data\rifle_blk.paa","\kt_axmcasr\data\bipod_blk.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle2.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\bipod.rvmat"};
 	};
 	class kt_axmcasr_blk1_bolt2_bcsewpn: kt_axmcasr_blk1_bolt2
 	{
@@ -2110,26 +2093,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt1","hu"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_blk2.paa","\kt_axmcasr\data\butt_blk2.paa","","\kt_axmcasr\data\hu.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat"};
-	};
-	class kt_axmcasr_blk2_bolt2_bcsewpn: kt_axmcasr_blk2_bolt2
-	{
-		enableAttack = 0;
-		type = 4;
-		scope = 1;
-		scopeArsenal = 0;
-		handAnim[] = {};
-		class Noob_Auto:Noob_Auto{};		
-		modes[] = {"Noob_Auto"};
-		class NGL: NGL{};
-		muzzles[] = {"this","NGL"};
-		_generalMacro = "";
-		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt1"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_blk2.paa","\kt_axmcasr\data\butt_blk2.paa",""};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle14.rvmat","\kt_axmcasr\data2\butt1.rvmat",""};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt1","hu"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_blk2.paa","\kt_axmcasr\data\rifle_blk2.paa","\kt_axmcasr\data\butt_blk2.paa","","\kt_axmcasr\data\hu.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle2.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat"};
 	};
 	class kt_axmcasr_tan_bolt2_bcsewpn: kt_axmcasr_tan_bolt2
 	{
@@ -2144,9 +2110,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt1","hu","ba","guan"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\butt_tan.paa","","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\rifle_tan.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat"};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt1","hu","ba","guan","bipod"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\butt_tan.paa","","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\rifle_tan.paa","\kt_axmcasr\data\bipod_tan.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle2.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\bipod.rvmat"};
 	};
 	class kt_axmcasr_skin2_bolt2_bcsewpn: kt_axmcasr_skin2_bolt2
 	{
@@ -2161,9 +2127,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt1","hu","ba","guan"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\butt_skin2.paa","","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\rifle_skin2.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat"};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt1","hu","ba","guan","bipod"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\butt_skin2.paa","","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\rifle_skin2.paa","\kt_axmcasr\data\bipod_skin2.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle2.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\bipod.rvmat"};
 	};
 	class kt_axmcasr_skin3_bolt2_bcsewpn: kt_axmcasr_skin3_bolt2
 	{
@@ -2178,9 +2144,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt1","hu","ba","guan"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\butt_skin3.paa","","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\rifle_skin3.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat"};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt1","hu","ba","guan","bipod"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\butt_skin3.paa","","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\rifle_skin3.paa","\kt_axmcasr\data\bipod_skin3.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle2.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\bipod.rvmat"};
 	};
 	class kt_axmcasr_skin4_bolt2_bcsewpn: kt_axmcasr_skin4_bolt2
 	{
@@ -2195,9 +2161,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt1","hu","ba","guan"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\butt_skin4.paa","","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\rifle_skin4.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat"};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt1","hu","ba","guan","bipod"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\butt_skin4.paa","","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\rifle_skin4.paa","\kt_axmcasr\data\bipod_skin4.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle2.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\bipod.rvmat"};
 	};
 	class kt_axmcasr_skin5_bolt2_bcsewpn: kt_axmcasr_skin5_bolt2
 	{
@@ -2212,9 +2178,9 @@
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","pi","tuo","bolt1","hu","ba","guan"};
-		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\butt_skin5.paa","","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\rifle_skin5.paa"};
-		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat"};
+		hiddenSelections[] = {"zasleh","pixia","pi","tuo","bolt1","hu","ba","guan","bipod"};
+		hiddenSelectionsTextures[] = {"","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\butt_skin5.paa","","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\rifle_skin5.paa","\kt_axmcasr\data\bipod_skin5.paa"};
+		hiddenSelectionsMaterials[] = {"","\kt_axmcasr\data2\rifle2.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\butt1.rvmat","","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\rifle1.rvmat","\kt_axmcasr\data2\bipod.rvmat"};
 	};
 	
 	class kt_cslr4;

@@ -194,6 +194,23 @@
 		hiddenSelections[] = {"zasleh","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"","\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\EBR\Data\srifle_EBR_khk_F_1_CO.paa","\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\EBR\Data\srifle_EBR_khk_F_2_CO.paa"};
 	};
+	class srifle_EBR_cbr_F;
+	class srifle_EBR_cbr_F_bcsewpn: srifle_EBR_cbr_F
+		{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\A3_Atlas\Weapons_F_Atlas\LongRangeRifles\EBR\Data\srifle_EBR_cbr_F_1_CO.paa","\A3_Atlas\Weapons_F_Atlas\LongRangeRifles\EBR\Data\srifle_EBR_cbr_F_2_CO.paa"};
+		};
 	class srifle_DMR_01_black_F;
 	class srifle_DMR_01_black_F_bcsewpn: srifle_DMR_01_black_F
 		{
@@ -1378,3 +1395,279 @@
 		hiddenSelectionsTextures[] = {"","\A3_Aegis\Weapons_F_Aegis\Machineguns\LMG_03\Data\LMG_03_F_body_snd_CO.paa","\A3_Aegis\Weapons_F_Aegis\Machineguns\LMG_03\Data\LMG_03_F_acc_snd_CO.paa","\A3\Weapons_F\Machineguns\M200\Data\grip_CO.paa"};
 	};
 
+/////////////////////////Atlas
+	class arifle_NCAR15_F;
+	class arifle_NCAR15_F_bcsewpn: arifle_NCAR15_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\A3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_1_co.paa","\A3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_2_co.paa"};
+	};
+	class arifle_NCAR15B_F;
+	class arifle_NCAR15B_F_bcsewpn: arifle_NCAR15B_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_1_co.paa","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_2_co.paa","a3\Weapons_F_Enoch\Rifles\AK12\Data\AKU12_RPK12_parts_CO.paa"};
+		hiddenSelectionsMaterials[] = {"","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_F_1.rvmat","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_F_2.rvmat","a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_RPK12.rvmat"};
+	};
+	class arifle_NCAR15_GL_F;
+	class arifle_NCAR15_GL_F_bcsewpn: arifle_NCAR15_GL_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\A3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_1_co.paa","\A3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_2_co.paa","\a3\weapons_f_exp\rifles\ak12\data\ak12_ak12_gl_co.paa"};
+	};
+	class arifle_NCAR15_MG_F;
+	class arifle_NCAR15_MG_F_bcsewpn: arifle_NCAR15_MG_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_1_co.paa","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_2_co.paa","a3\Weapons_F_Enoch\Rifles\AK12\Data\AKU12_RPK12_parts_CO.paa"};
+		hiddenSelectionsMaterials[] = {"","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_F_1.rvmat","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_F_2.rvmat","a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_RPK12.rvmat"};
+	};
+
+	class arifle_G36_F;
+	class arifle_G36_F_bcsewpn: arifle_G36_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_01_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_02_CO.paa"};
+	};
+	class arifle_G36_GL_F;
+	class arifle_G36_GL_F_bcsewpn: arifle_G36_GL_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_01_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_02_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_GL_CO.paa"};
+	};
+	class arifle_G36C_F;
+	class arifle_G36C_F_bcsewpn: arifle_G36C_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"","\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_01_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_02_CO.paa"};
+	};
+	class arifle_FORT652_F;
+	class arifle_FORT652_F_bcsewpn: arifle_FORT652_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo"};
+		hiddenSelectionsTextures[] = {"","\A3_Aegis\Weapons_f_aegis\Rifles\TRG20\Data\TAR21_black_CO.paa"};
+	};
+	class arifle_FORT651_F;
+	class arifle_FORT651_F_bcsewpn: arifle_FORT651_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo"};
+		hiddenSelectionsTextures[] = {"","\A3_Aegis\Weapons_f_aegis\Rifles\TRG20\Data\TAR21_black_CO.paa"};
+	};
+	class arifle_FORT652_GL_F;
+	class arifle_FORT652_GL_F_bcsewpn: arifle_FORT652_GL_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"","\A3_Aegis\Weapons_F_Aegis\Rifles\TRG20\Data\TAR21_black_CO.paa","\A3\Weapons_F\Rifles\TRG20\Data\TAR21_EGLM_CO.paa","\A3\Weapons_F\Data\GL_holo_CO.paa"};
+	};
+	class arifle_AUG_F;
+	class arifle_AUG_F_bcsewpn: arifle_AUG_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","Camo"};
+		hiddenSelectionsTextures[] = {"","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_CO.paa"};
+	};
+	class arifle_AUG_GL_F;
+	class arifle_AUG_GL_F_bcsewpn: arifle_AUG_GL_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","Camo2"};
+		hiddenSelectionsTextures[] = {"","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\GL40_CO.paa"};
+	};
+	class arifle_AUG_C_F;
+	class arifle_AUG_C_F_bcsewpn: arifle_AUG_C_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","Camo"};
+		hiddenSelectionsTextures[] = {"","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_CO.paa"};
+	};
+	class arifle_AUG_black_F;
+	class arifle_AUG_black_F_bcsewpn: arifle_AUG_black_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","Camo"};
+		hiddenSelectionsTextures[] = {"","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_black_CO.paa"};
+	};
+	class arifle_AUG_GL_black_F;
+	class arifle_AUG_GL_black_F_bcsewpn: arifle_AUG_GL_black_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","camo1","Camo2"};
+		hiddenSelectionsTextures[] = {"","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_black_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\GL40_black_CO.paa"};
+	};
+	class arifle_AUG_C_black_F;
+	class arifle_AUG_C_black_F_bcsewpn: arifle_AUG_C_black_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto_bcsewpn:Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL_bcsewpn: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","Camo"};
+		hiddenSelectionsTextures[] = {"","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_black_CO.paa"};
+	};
