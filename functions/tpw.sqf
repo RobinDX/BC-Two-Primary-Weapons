@@ -1,6 +1,7 @@
 _weapon_p_old = primaryWeapon player;
 _weapon_se_old = secondaryWeapon player;
-_load0 = getUnitLoadout player;
+_load0ex = [player] call CBA_fnc_getLoadout;
+_load0 = _load0ex select 0;
 _pwpn_info0 = _load0 select 0;
 _sewpn_info0 = _load0 select 1;
 _weapon_se_new = format["%1%2",_weapon_p_old,"_bcsewpn"];
@@ -42,7 +43,8 @@ if (_weapon_se_old isEqualTo "") then
 			_pwpn_info0 set  [0, _weapon_se_new];
 			_load0 set [1, _pwpn_info0];
 			_load0 set [0, []];
-			player setUnitLoadout _load0;
+			_load0ex set [0, _load0];
+			[player,_load0ex] call CBA_fnc_setLoadout;
 			//sleep 3;
 			player addMagazine "mag_null";
 			player removeMagazine "mag_null";
@@ -98,8 +100,9 @@ if (_weapon_se_old isEqualTo "") then
 						_pwpn_info0 set  [0, _weapon_se_new];
 						_sewpn_info0 set  [0, _weapon_p_new];
 						_load0 set [1, _pwpn_info0];
-						_load0 set [0, _sewpn_info0];			
-						player setUnitLoadout _load0;				
+						_load0 set [0, _sewpn_info0];
+						_load0ex set [0, _load0];
+						[player,_load0ex] call CBA_fnc_setLoadout;				
 						//sleep 3;
 						player addMagazine "mag_null";
 						player removeMagazine "mag_null";
@@ -115,7 +118,8 @@ if (_weapon_se_old isEqualTo "") then
 						_sewpn_info0 set  [0, _weapon_p_new];
 						_load0 set [0, _sewpn_info0];
 						_load0 set [1, []];
-						player setUnitLoadout _load0;
+						_load0ex set [0, _load0];
+						[player,_load0ex] call CBA_fnc_setLoadout;
 						//sleep 3;						
 						localNamespace setVariable ["pwpn_info0",_pwpn_info0];
 						localNamespace setVariable ["pwpn_t",_weapon_p_old];
@@ -156,7 +160,8 @@ if (_weapon_se_old isEqualTo "") then
 					_sewpn_info0 set  [0, _weapon_p_new];
 					_load0 set [0, _sewpn_info0];
 					_load0 set [1, []];
-					player setUnitLoadout _load0;
+					_load0ex set [0, _load0];
+					[player,_load0ex] call CBA_fnc_setLoadout;
 					//sleep 3;
 					player addMagazine "mag_null";
 					player removeMagazine "mag_null";
@@ -175,7 +180,8 @@ if (_weapon_se_old isEqualTo "") then
 						_load0 set [1, _pwpn_info0];					
 						_pwpn_info2 =	localNamespace getVariable["pwpn_info0",[]];			
 						_load0 set  [0, _pwpn_info2];
-						player setUnitLoadout _load0;
+						_load0ex set [0, _load0];
+						[player,_load0ex] call CBA_fnc_setLoadout;
 						//sleep 3;
 						player addMagazine "mag_null";
 						player removeMagazine "mag_null";
@@ -192,7 +198,8 @@ if (_weapon_se_old isEqualTo "") then
 						localNamespace setVariable ["pwpn_t",_weapon_p_old];		
 						_pwpn_info2 =	localNamespace getVariable["pwpn_info0",[]];			
 						_load0 set  [0, _pwpn_info2];
-						player setUnitLoadout _load0;					
+						_load0ex set [0, _load0];
+						[player,_load0ex] call CBA_fnc_setLoadout;
 						
 						_weapon_mass = (getNumber (configfile >> "CfgWeapons" >> _weapon_p_old >> "WeaponSlotsInfo" >> "mass"));
 						_weapon_acc0 = _pwpn_info0 param [1, "0"];
@@ -229,7 +236,8 @@ if (_weapon_se_old isEqualTo "") then
 					_pwpn_info2 =	localNamespace getVariable["pwpn_info0",[]];			
 					_load0 set  [0, _pwpn_info2];
 					_load0 set [1, []];
-					player setUnitLoadout _load0;
+					_load0ex set [0, _load0];
+					[player,_load0ex] call CBA_fnc_setLoadout;
 					localNamespace setVariable ["pwpn_info0",_pwpn_info0];
 					//sleep 3;
 					player addMagazine "mag_null";
