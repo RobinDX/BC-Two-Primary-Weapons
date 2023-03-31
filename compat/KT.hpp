@@ -1409,6 +1409,22 @@
 		hiddenSelections[] = {"zasleh"};
 		hiddenSelectionsTextures[] = {""};
 	};
+	class KT_tac338_2;	
+	class KT_tac338_2_bcsewpn:	  KT_tac338_2{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
 	class r93_lrs2;	
 	class r93_lrs2_bcsewpn:  r93_lrs2{
 		enableAttack = 0;

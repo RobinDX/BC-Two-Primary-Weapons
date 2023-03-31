@@ -2338,6 +2338,7 @@ class CfgWeapons
 	#include "\BC_TPW\compat\t1snow.hpp"
 	#include "\BC_TPW\compat\YL.hpp"
 	#include "\BC_TPW\compat\rep_weapons_1st.hpp"
+	#include "\BC_TPW\compat\rep_weapons_2st.hpp"
 	#include "\BC_TPW\compat\age.hpp"
 	#include "\BC_TPW\compat\DGR.hpp"
 	#include "\BC_TPW\compat\aegis.hpp"

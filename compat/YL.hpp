@@ -54,6 +54,15 @@
 	class YL_Type79;
 	class YL_Type79_HY1;
 	class YL_Type79_HY2;
+	class YL_Type81;
+	class YL_Type81_1;
+	class YL_Type81_2;
+	class YL_Type81_1C;
+	class YL_Type81_1CM;
+	class YL_Type81_QS1;
+	class YL_Type81_QS1G;
+	class YL_Type81_QS2L;
+	class YL_Type81_QS2S;
 	
 	class YL_QJS201_bcsewpn: YL_QJS201
 	{
@@ -1069,3 +1078,346 @@ class YL_QJS201_Retrofit_bcsewpn: YL_QJS201_Retrofit
 	class YL_Type79_HY2_grip_bcsewpn: YL_Type79_HY2_bcsewpn{};
 	class YL_Type79_HY2_grip2_bcsewpn: YL_Type79_HY2_bcsewpn{};
 	class YL_Type79_HY2_grip3_bcsewpn: YL_Type79_HY2_bcsewpn{};
+		
+	class YL_Type81_bcsewpn: YL_Type81
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+		hiddenSelectionsMaterials[] = {""};
+	};
+	class YL_Type81_1_bcsewpn: YL_Type81_1
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+		hiddenSelectionsMaterials[] = {""};
+	};
+	class YL_Type81_2_bcsewpn: YL_Type81_2
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+		hiddenSelectionsMaterials[] = {""};
+	};
+	class YL_Type81_1C_bcsewpn: YL_Type81_1C
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+		hiddenSelectionsMaterials[] = {""};
+	};
+	class YL_Type81_1CM_bcsewpn: YL_Type81_1CM
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"",""};
+		hiddenSelectionsMaterials[] = {"",""};
+	};
+	class YL_Type81_1CM_grip_bcsewpn: YL_Type81_1CM_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_1CM_grip2_bcsewpn: YL_Type81_1CM_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_1CM_grip3_bcsewpn: YL_Type81_1CM_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_QS1_bcsewpn: YL_Type81_QS1
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"",""};
+		hiddenSelectionsMaterials[] = {"",""};
+	};
+	class YL_Type81_QS1_grip_bcsewpn: YL_Type81_QS1_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_QS1_grip2_bcsewpn: YL_Type81_QS1_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_QS1_grip3_bcsewpn: YL_Type81_QS1_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_QS1G_bcsewpn: YL_Type81_QS1G
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"",""};
+		hiddenSelectionsMaterials[] = {"",""};
+	};
+	class YL_Type81_QS1G_grip_bcsewpn: YL_Type81_QS1G_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_QS1G_grip2_bcsewpn: YL_Type81_QS1G_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_QS1G_grip3_bcsewpn: YL_Type81_QS1G_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_QS2L_bcsewpn: YL_Type81_QS2L
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"",""};
+		hiddenSelectionsMaterials[] = {"",""};
+	};
+	class YL_Type81_QS2L_grip_bcsewpn: YL_Type81_QS2L_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_QS2L_grip2_bcsewpn: YL_Type81_QS2L_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_QS2L_grip3_bcsewpn: YL_Type81_QS2L_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_QS2S_bcsewpn: YL_Type81_QS2S
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"",""};
+		hiddenSelectionsMaterials[] = {"",""};
+	};
+	class YL_Type81_QS2S_grip_bcsewpn: YL_Type81_QS2S_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_QS2S_grip2_bcsewpn: YL_Type81_QS2S_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	class YL_Type81_QS2S_grip3_bcsewpn: YL_Type81_QS2S_bcsewpn
+	{
+		hiddenSelections[] = {"zasleh","RD_G"};
+		hiddenSelectionsTextures[] = {"","\yl_type81\tex\tac\mlok_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\yl_type81\tex\tac\mlok.rvmat"};
+	};
+	
+	
+	class Rep_QBS09YL_base;
+	class Rep_QBS09YL_base_bcsewpn: Rep_QBS09YL_base
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};		
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","muzzleflash"};
+		hiddenSelectionsTextures[] = {"",""};
+	};
+
+	class Rep_QBS09YL_base_cqb;
+	class Rep_QBS09YL_base_cqb_bcsewpn: Rep_QBS09YL_base_cqb
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};		
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","muzzleflash"};
+		hiddenSelectionsTextures[] = {"",""};
+	};
+
+	class Rep_QBS09YL_modA;
+	class Rep_QBS09YL_modA_bcsewpn: Rep_QBS09YL_modA
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};		
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","muzzleflash"};
+		hiddenSelectionsTextures[] = {"",""};
+	};
+	class Rep_QBS09YL_modA_grip_bcsewpn: Rep_QBS09YL_modA_bcsewpn{};
+	class Rep_QBS09YL_modA_grip2_bcsewpn: Rep_QBS09YL_modA_bcsewpn{};
+
+	class Rep_QBS09YL_mod_cqb;
+	class Rep_QBS09YL_mod_cqb_bcsewpn: Rep_QBS09YL_mod_cqb
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};		
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","muzzleflash"};
+		hiddenSelectionsTextures[] = {"",""};
+	};
+	class Rep_QBS09YL_mod_cqb_grip_bcsewpn: Rep_QBS09YL_mod_cqb_bcsewpn{};
+	class Rep_QBS09YL_mod_cqb_grip2_bcsewpn: Rep_QBS09YL_mod_cqb_bcsewpn{};
+
+	class Rep_QBS09YL_modB;
+	class Rep_QBS09YL_modB_bcsewpn: Rep_QBS09YL_modB
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};		
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh","muzzleflash"};
+		hiddenSelectionsTextures[] = {"",""};
+	};
+	class Rep_QBS09YL_modB_grip_bcsewpn: Rep_QBS09YL_modB_bcsewpn{};
+	class Rep_QBS09YL_modB_grip2_bcsewpn: Rep_QBS09YL_modB_bcsewpn{};
+
+	
