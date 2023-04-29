@@ -143,3 +143,20 @@
 		hiddenSelections[] = {"zasleh"};
 		hiddenSelectionsTextures[] = {""};
 	};
+	class BC_INSAS; 	
+	class BC_INSAS_bcsewpn:   BC_INSAS
+ 	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		modes[] = {"Noob_Auto"};
+		class Noob_Auto:Noob_Auto{};
+		muzzles[] = {"this","NGL"};
+		class NGL: NGL{};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
