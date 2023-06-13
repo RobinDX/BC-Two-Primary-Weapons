@@ -54,8 +54,9 @@ if (_weapon_se_old isEqualTo "") then
 			};
 		} else
 		{
-			
-			hint "Weapon do not support, work in Compatible Mode";			
+			if (BC_TPW_com_mess) then {
+				hint "Weapon do not support, work in Compatible Mode";
+			};
 			localNamespace setVariable ["pwpn_info0",_pwpn_info0];
 			localNamespace setVariable ["pwpn_t",_weapon_p_old];
 			
@@ -113,7 +114,9 @@ if (_weapon_se_old isEqualTo "") then
 						};
 					} else
 					{
-						hint "Weapon do not support, work in Compatible Mode";
+						if (BC_TPW_com_mess) then {
+							hint "Weapon do not support, work in Compatible Mode";
+						};
 						
 						_sewpn_info0 set  [0, _weapon_p_new];
 						_load0 set [0, _sewpn_info0];
@@ -193,7 +196,9 @@ if (_weapon_se_old isEqualTo "") then
 					} else
 					{
 						
-						hint "Weapon do not support,work in Compatible Mode";
+						if (BC_TPW_com_mess) then {
+							hint "Weapon do not support, work in Compatible Mode";
+						};
 						player removeWeapon _weapon_p_old;
 						localNamespace setVariable ["pwpn_t",_weapon_p_old];		
 						_pwpn_info2 =	localNamespace getVariable["pwpn_info0",[]];			

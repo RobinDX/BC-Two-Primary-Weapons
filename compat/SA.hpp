@@ -48,10 +48,10 @@
 		_generalMacro = "";
 		baseWeapon = "";
 		hiddenSelections[] = {"zasleh","Handguard","Pistol_Grip","Stock","Weapon","Reciever"};
-		hiddenSelectionsTextures[] = {"zasleh","\JAS_RSASS\data\Handguard\Handguard_blk_co.paa","\JAS_RSASS\data\Pistol_Grip\MIAD_Pistol_blk_co.paa","\JAS_RSASS\data\Stock\PRS_Stock_blk_co.paa","\JAS_RSASS\data\Weapon\Weapon_blk_co.paa","\JAS_RSASS\data\Reciever\Reciever_blk_co.paa"};
+		hiddenSelectionsTextures[] = {"","\JAS_RSASS\data\Handguard\Handguard_blk_co.paa","\JAS_RSASS\data\Pistol_Grip\MIAD_Pistol_blk_co.paa","\JAS_RSASS\data\Stock\PRS_Stock_blk_co.paa","\JAS_RSASS\data\Weapon\Weapon_blk_co.paa","\JAS_RSASS\data\Reciever\Reciever_blk_co.paa"};
 	};
 	
-	  class Camel_K1A_base;
+	class Camel_K1A_base;
   class Camel_K1A_base_bcsewpn: Camel_K1A_base
   {
 	  enableAttack = 0;
@@ -65,9 +65,9 @@
 	  class NGL: NGL{};
 	  _generalMacro = "";
 	  baseWeapon = "";
-	  hiddenSelections[] = {"camo1","camo2"};
-	  hiddenSelectionsTextures[] = {"K1A_RIS\data\K1A_metal.paa","K1A_RIS\data\k1a Polymer FDE.paa"};
-	  hiddenSelectionsmaterials[] = {"K1A_RIS\material\K1A_body.rvmat","K1A_RIS\material\K1A_poly.rvmat"};
+	  hiddenSelections[] = {"zasleh","camo1","camo2"};
+	  hiddenSelectionsTextures[] = {"","K1A_RIS\data\K1A_metal.paa","K1A_RIS\data\k1a Polymer FDE.paa"};
+	  hiddenSelectionsmaterials[] = {"","K1A_RIS\material\K1A_body.rvmat","K1A_RIS\material\K1A_poly.rvmat"};
   };
   class Camel_k1_FDE_grip_bcsewpn: Camel_K1A_base_bcsewpn{};
   class Camel_k1_FDE_grip2_bcsewpn: Camel_k1_FDE_grip_bcsewpn{};
@@ -86,9 +86,9 @@
 	  class NGL: NGL{};
 	  _generalMacro = "";
 	  baseWeapon = "";
-	  hiddenSelections[] = {"camo1","camo2"};
-	  hiddenSelectionsTextures[] = {"K1A_RIS\data\K1A_metal.paa","K1A_RIS\data\k1a Polymer rgr.paa"};
-	  hiddenSelectionsmaterials[] = {"K1A_RIS\material\K1A_body.rvmat","K1A_RIS\material\K1A_poly.rvmat"};
+	  hiddenSelections[] = {"zasleh","camo1","camo2"};
+	  hiddenSelectionsTextures[] = {"","K1A_RIS\data\K1A_metal.paa","K1A_RIS\data\k1a Polymer rgr.paa"};
+	  hiddenSelectionsmaterials[] = {"","K1A_RIS\material\K1A_body.rvmat","K1A_RIS\material\K1A_poly.rvmat"};
   };
   class Camel_k1_RGR_grip_bcsewpn: Camel_K1A_RGR_virtual_bcsewpn{};
   class Camel_k1_RGR_grip2_bcsewpn: Camel_k1_RGR_grip_bcsewpn{};
@@ -107,9 +107,9 @@
 	  class NGL: NGL{};
 	  _generalMacro = "";
 	  baseWeapon = "";
-	  hiddenSelections[] = {"camo1","camo2"};
-	  hiddenSelectionsTextures[] = {"K1A_RIS\data\K1A_metal.paa","K1A_RIS\data\k1a Polymer blk.paa"};
-	  hiddenSelectionsmaterials[] = {"K1A_RIS\material\K1A_body.rvmat","K1A_RIS\material\K1A_poly.rvmat"};
+	  hiddenSelections[] = {"zasleh","camo1","camo2"};
+	  hiddenSelectionsTextures[] = {"","K1A_RIS\data\K1A_metal.paa","K1A_RIS\data\k1a Polymer blk.paa"};
+	  hiddenSelectionsmaterials[] = {"","K1A_RIS\material\K1A_body.rvmat","K1A_RIS\material\K1A_poly.rvmat"};
   };
   class Camel_k1_BLK_grip_bcsewpn: Camel_K1A_blk_virtual_bcsewpn{};
   class Camel_k1_blk_grip2_bcsewpn: Camel_k1_BLK_grip_bcsewpn{};
@@ -274,4 +274,60 @@
 		baseWeapon = "";
 		hiddenSelections[] = {"zasleh","camo","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"","\FM_L115A3\data\L115A3_S_co.paa","\FM_L115A3\data\awc_scope_co.paa","\FM_L115A3\data\L115A3_Barrel_S_co.paa"};
+	};
+	
+	
+	class roa_FLUX_F;
+	class roa_FLUX_F_bcsewpn: roa_FLUX_F
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};	
+	};
+	
+/////////////////
+	class GX_AMR_MK1_Weapon;
+	class GX_AMR_MK1_Weapon_bcsewpn: GX_AMR_MK1_Weapon
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};	
+	};
+	
+	class GX_AMR_MK2_Weapon;
+	class GX_AMR_MK2_Weapon_bcsewpn: GX_AMR_MK2_Weapon
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};	
 	};

@@ -5,7 +5,7 @@ class CfgPatches
 		name = "BC Two Primary Weapons";
 		author = "RobinDX";
 		requiredVersion = 0.99;
-		requiredAddons[] = {};
+		requiredAddons[] = {"A3_Weapons_F","A3_Weapons_F_Exp","A3_Weapons_F_Enoch","cba_main"};
 		units[] = {};
 		weapons[] = {};
 		magazines[] = {};
@@ -887,8 +887,9 @@ class CfgWeapons
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hiddenSelections[] = {"zasleh","tna"};
-		hiddenSelectionsTextures[] = {"","\a3\weapons_f_exp\LongRangeRifles\M320\Data\srifle_LRR_tna_F_co.paa"};
+		hiddenSelections[] = {"zasleh","camo"};
+		hiddenSelectionsTextures[] = {"","\A3\Weapons_F_Exp\LongRangeRifles\M320\Data\srifle_LRR_tna_F_co.paa"};
+		hiddenSelectionsMaterials[] = {"","\a3\weapons_f_bootcamp\longrangerifles\m320_camo\data\cheytac_m200_blufor.rvmat"};
 	};
 	class arifle_SPAR_01_blk_F;
 	class arifle_SPAR_01_blk_F_bcsewpn: arifle_SPAR_01_blk_F
@@ -1198,7 +1199,11 @@ class CfgWeapons
 		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"","\A3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_1_co.paa","\A3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_2_co.paa","\a3\weapons_f_exp\rifles\ak12\data\ak12_ak12_gl_co.paa"};
 	};
-	class arifle_AK12_GL_lush_F;
+	class arifle_AK12_GL_base_F;
+	class arifle_AK12_GL_lush_F: arifle_AK12_GL_base_F
+	{
+		baseWeapon = "arifle_AK12_GL_lush_F";
+	};
 	class arifle_AK12_GL_lush_F_bcsewpn: arifle_AK12_GL_lush_F
 	{
 		enableAttack = 0;
@@ -1248,7 +1253,7 @@ class CfgWeapons
 		muzzles[] = {"this","NGL"};
 		_generalMacro = "";
 		baseWeapon = "";
-		hhiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
+		hiddenSelections[] = {"zasleh","camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_1_co.paa","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_2_co.paa","a3\Weapons_F_Enoch\Rifles\AK12\Data\AKU12_RPK12_parts_CO.paa"};
 		hiddenSelectionsMaterials[] = {"","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_F_1.rvmat","a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_F_2.rvmat","a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_RPK12.rvmat"};
 	};
@@ -2316,6 +2321,7 @@ class CfgWeapons
 	#include "\BC_TPW\compat\ARD97.hpp"
 	#include "\BC_TPW\compat\CDLC_SOG.hpp"
 	#include "\BC_TPW\compat\CDLC_GM.hpp"
+	#include "\BC_TPW\compat\CDLC_CSLA.hpp"
 	#include "\BC_TPW\compat\Tier1.hpp"
 	#include "\BC_TPW\compat\nia.hpp"
 	#include "\BC_TPW\compat\gold.hpp"
@@ -2345,6 +2351,11 @@ class CfgWeapons
 	#include "\BC_TPW\compat\DGR.hpp"
 	#include "\BC_TPW\compat\aegis.hpp"
 	#include "\BC_TPW\compat\NIA_SCAR.hpp"
+	#include "\BC_TPW\compat\LIB.hpp"
+	#include "\BC_TPW\compat\CSA.hpp"
+	#include "\BC_TPW\compat\WRS.hpp"
+	#include "\BC_TPW\compat\SPS2.hpp"
+	#include "\BC_TPW\compat\vme.hpp"
 	//#include "\BC_TPW\compat\blank2.hpp"
 	//#include "\BC_TPW\compat\blank3.hpp"
 	
@@ -2360,7 +2371,7 @@ class CfgMagazines
 		descriptionShort = "mag_null";
 		displayName = "mag_null";
 		count = 1;
-		mass = 0.2;
+		mass = 0.1;
 		author = "RobinDX";
 		tracersEvery = 0;
 		lastRoundsTracer = 0;

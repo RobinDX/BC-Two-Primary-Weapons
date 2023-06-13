@@ -128,7 +128,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-12 (GP-34/Black)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK12_GP34_black_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_black_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_black_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_black_co.paa"};
 		
 	};
@@ -165,7 +165,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-12 (GP-34/Lush)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK12_GP34_lush_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_lush_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_lush_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_lush_co.paa"};
 		
 	};
@@ -202,7 +202,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-12 (GP-34/Arid)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK12_GP34_arid_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_arid_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_arid_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_arid_co.paa"};
 		
 	};
@@ -239,7 +239,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-12 (GP-34/Woodland)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK12_GP34_wood_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_wood_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_wood_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_wood_co.paa"};
 		
 	};
@@ -276,7 +276,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-12 (GP-34/Snow Tiger)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK12_GP34_snowtiger_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_snowtiger_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_snowtiger_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_snowtiger_co.paa"};
 		
 	};
@@ -313,7 +313,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-12 (GP-34/Tiger)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK12_GP34_tiger_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_tiger_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_tiger_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_tiger_co.paa"};
 		
 	};
@@ -350,7 +350,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-12 (GP-34/Winter)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK12_GP34_winter_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_winter_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_winter_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_winter_co.paa"};
 		
 	};
@@ -387,7 +387,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-12 (GP-34/Modern Tan)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK12_GP34_tan_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_tan_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_tan_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_tan_co.paa"};
 		
 	};
@@ -424,7 +424,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-12 (GP-34/Two Color)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK12_GP34_bicolor_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_bicolor_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_bicolor_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_bicolor_co.paa"};
 		
 	};
@@ -508,7 +508,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-15 (GP-34/Black)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK15_GP34_black_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_black_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_black_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_black_co.paa"};
 		
 	};
@@ -545,7 +545,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-15 (GP-34/Lush)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK15_GP34_lush_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_lush_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_lush_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_lush_co.paa"};
 		
 	};
@@ -582,7 +582,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-15 (GP-34/Arid)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK15_GP34_arid_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_arid_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_arid_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_arid_co.paa"};
 		
 	};
@@ -619,7 +619,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-15 (GP-34/Woodland)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK15_GP34_wood_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_wood_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_wood_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_wood_co.paa"};
 		
 	};
@@ -656,7 +656,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-15 (GP-34/Snow Tiger)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK15_GP34_snowtiger_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_snowtiger_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_snowtiger_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_snowtiger_co.paa"};
 		
 	};
@@ -693,7 +693,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-15 (GP-34/Tiger)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK15_GP34_tiger_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_tiger_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_tiger_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_tiger_co.paa"};
 		
 	};
@@ -730,7 +730,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-15 (GP-34/Winter)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK15_GP34_winter_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_winter_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_winter_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_winter_co.paa"};
 		
 	};
@@ -767,7 +767,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-15 (GP-34/Modern Tan)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK15_GP34_tan_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_tan_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_tan_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_tan_co.paa"};
 		
 	};
@@ -804,7 +804,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-15 (GP-34/Two Color)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK15_GP34_bicolor_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_bicolor_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_bicolor_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_bicolor_co.paa"};
 		
 	};
@@ -888,7 +888,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-19 (GP-34/Black)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK19_GP34_black_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_black_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_black_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_black_co.paa"};
 		
 	};
@@ -925,7 +925,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-19 (GP-34/Lush)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK19_GP34_lush_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_lush_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_lush_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_lush_co.paa"};
 		
 	};
@@ -962,7 +962,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-19 (GP-34/Arid)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK19_GP34_arid_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_arid_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_arid_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_arid_co.paa"};
 		
 	};
@@ -999,7 +999,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-19 (GP-34/Woodland)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK19_GP34_wood_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_wood_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_wood_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_wood_co.paa"};
 		
 	};
@@ -1036,7 +1036,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-19 (GP-34/Snow Tiger)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK19_GP34_snowtiger_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_snowtiger_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_snowtiger_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_snowtiger_co.paa"};
 		
 	};
@@ -1073,7 +1073,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-19 (GP-34/Tiger)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK19_GP34_tiger_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_tiger_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_tiger_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_tiger_co.paa"};
 		
 	};
@@ -1110,7 +1110,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-19 (GP-34/Winter)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK19_GP34_winter_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_winter_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_winter_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_winter_co.paa"};
 		
 	};
@@ -1147,7 +1147,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-19 (GP-34/Modern Tan)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK19_GP34_tan_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_tan_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_tan_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_tan_co.paa"};
 		
 	};
@@ -1184,7 +1184,7 @@
 		scopeArsenal = 0;
 		displayName = "AK-19 (GP-34/Two Color)";
 		picture = "\CUP\Weapons\CUP_Weapons_AK12\data\ui\CUP_arifle_AK19_GP34_bicolor_ca.paa";
-		hiddenSelections[] = {"Camo1","Camo2","CamoGL"};
+		hiddenSelections[] = {"zasleh","Camo1","Camo2","CamoGL"};
 		hiddenSelectionsTextures[] = {"","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_bicolor_co.paa","CUP\Weapons\CUP_Weapons_AK12\Data\AK12_bicolor_co.paa","CUP\Weapons\CUP_Weapons_AK12\data\GP-34\GP34_bicolor_co.paa"};
 		
 	};

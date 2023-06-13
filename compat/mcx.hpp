@@ -10979,3 +10979,331 @@
 	class MCX_Rattler_556_b_s6_fold_grip_bcsewpn: MCX_Rattler_556_b_s6_fold_bcsewpn{};
 	class MCX_Rattler_556_b_s6_fold_grip2_bcsewpn: MCX_Rattler_556_b_s6_fold_bcsewpn{};
 	class MCX_Rattler_556_b_s6_fold_grip3_bcsewpn: MCX_Rattler_556_b_s6_fold_bcsewpn{};
+
+
+
+	class MCX_SpearLT_556_11_s1;
+	class MCX_SpearLT_556_11_gl_s1;
+	class MCX_SpearLT_556_16_s1;
+	class MCX_SpearLT_300_11_s1;
+	class MCX_SpearLT_300_11_gl_s1;
+	class MCX_SpearLT_300_9_s1;
+	class MCX_SpearLT_762_11_s1;
+	class MCX_SpearLT_762_11_gl_s1;
+	class MCX_SpearLT_762_16_s1;
+	
+	class MCX_SpearLT_556_11_s1_bcsewpn: MCX_SpearLT_556_11_s1
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_556_11_gl_s1_bcsewpn: MCX_SpearLT_556_11_gl_s1
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_556_16_s1_bcsewpn: MCX_SpearLT_556_16_s1
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_300_11_s1_bcsewpn: MCX_SpearLT_300_11_s1
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_300_11_gl_s1_bcsewpn: MCX_SpearLT_300_11_gl_s1
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_300_9_s1_bcsewpn: MCX_SpearLT_300_9_s1
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_762_11_s1_bcsewpn: MCX_SpearLT_762_11_s1
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_762_11_gl_s1_bcsewpn: MCX_SpearLT_762_11_gl_s1
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_762_16_s1_bcsewpn: MCX_SpearLT_762_16_s1
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_556_11_s1_fold;
+	class MCX_SpearLT_556_11_gl_s1_fold;
+	class MCX_SpearLT_556_16_s1_fold;
+	class MCX_SpearLT_300_11_s1_fold;
+	class MCX_SpearLT_300_11_gl_s1_fold;
+	class MCX_SpearLT_300_9_s1_fold;
+	class MCX_SpearLT_762_11_s1_fold;
+	class MCX_SpearLT_762_11_gl_s1_fold;
+	class MCX_SpearLT_762_16_s1_fold;
+	
+	class MCX_SpearLT_556_11_s1_fold_bcsewpn: MCX_SpearLT_556_11_s1_fold
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_556_11_gl_s1_fold_bcsewpn: MCX_SpearLT_556_11_gl_s1_fold
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_556_16_s1_fold_bcsewpn: MCX_SpearLT_556_16_s1_fold
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_300_11_s1_fold_bcsewpn: MCX_SpearLT_300_11_s1_fold
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_300_11_gl_s1_fold_bcsewpn: MCX_SpearLT_300_11_gl_s1_fold
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_300_9_s1_fold_bcsewpn: MCX_SpearLT_300_9_s1_fold
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_762_11_s1_fold_bcsewpn: MCX_SpearLT_762_11_s1_fold
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_762_11_gl_s1_fold_bcsewpn: MCX_SpearLT_762_11_gl_s1_fold
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
+	
+	class MCX_SpearLT_762_16_s1_fold_bcsewpn: MCX_SpearLT_762_16_s1_fold
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto:Noob_Auto{};		
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		_generalMacro = "";
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
